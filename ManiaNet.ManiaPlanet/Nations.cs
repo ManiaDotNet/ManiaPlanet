@@ -22,8 +22,7 @@ namespace ManiaNet.ManiaPlanet
             {
                 Nation nation = new Nation();
 
-                if (!nation.ParseXml(nationElement))
-                    throw new FormatException("NationsList.xml wasn't in the correct format.");
+                nation.ParseXml(nationElement);
 
                 nations.Add(nation.Path.ToLower(), nation);
             }
