@@ -1,0 +1,648 @@
+<nationslist version="3">
+	<nation path="World|Africa|Algeria" hymn=""
+		avatar_name="Skins\Avatars\Flags\ALG.dds" avatar_checksum="0x950D5D5D4A4995F57F788602E1D80506F074A3006D8698295EBDEA9BEBCA9307" avatar_crypted_checksum="kkib1jdJ27CA4W1GiUFWCMWZbDQTY9CiZY7kwZWIFxsG6whzm3ERSh7QaYGNEzWdoNX1/+yjm4p8uyS5CJlImoTNqe+fgDqq00Vi6ATEAMvzc0nlP1g4y6AJoW4x6IIYrDlTXo2dspUEcKlrE4tBl1lDCb8TQoTXglKOwxEz2+Y="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\ALG.zip" checksum="0x6EDC6AB52BAA74BBDE15C87D4C0491051D8F16C86D5EE85C0123D3E6B17DF99C" crypted_checksum="I+sySTrdXu8nfVL5ouxr8DiXv06gQlXyZJiIkJ/sJUtW8wyyDVM5em1+ncpu/W/ZrU0sc5FbyXaxE/3RgomTEGNUEkQ/I486exrSM2/WvnH1YH/yGqphbQr2raPV1wyRRQDcjP7QPDbTndZBAp7tp1PVdx2mYpyjsmZv9+Tp/eg="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|Angola" hymn=""
+		avatar_name="Skins\Avatars\Flags\ANG.dds" avatar_checksum="0x338BF91C27BCC7080E6338A760BF259C00BE1DB83C0EBF51659F40B76811EA39" avatar_crypted_checksum="LJERIg2v58DfAuUGUoU63/334ikxci0gH5cMhnX0d49YnhV2i8qg3oe102CtF2LsdIT0+y0aqMpYkHfoJyYyUkk/hpqeonXy0hJg8yxtK1V7jHUTQRaud2zyXXQDnNRMRNFyMSOM62Y9sEYnHYiaAwUUS6cr4mLfyO3/EGTl1Pk="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\ANG.zip" checksum="0x12BC062A9DD8442D11EE828B6256A164F6277FFBAB17945CBDF8E672B67B5B7F" crypted_checksum="KfzJqDpOjVloWdd+tHUphBTE2PVv17CulwvX+aeEW0jE/8xZ6lHgApAKzYWSgtCYOUyM0TnYJ807QXFIa0zX1J8lsBfAIbxg7KYqS/x9ebg+Yvsc9spvGRyLfDZP9vQJF+2cBI8hltXKdtx+cUA+nhaubD3n33R4yRtSGDBuMKg="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Argentina" hymn=""
+		avatar_name="Skins\Avatars\Flags\ARG.dds" avatar_checksum="0x8301CA5BAF431DA86AC2E338AD76BC983CDE22472F44AB833992D33CB9C6F754" avatar_crypted_checksum="H/LEFWtr1DCcM+6KHdzTaAHyg0C3s6JHURHMy2qcSlB8K21gPpUvVyfQu2K9jRzkoa5Th5TsZrG3tHQ8kIw2jdBF8OIfeiX7VTYpzYMjHpmK6sQTbkMV4BCIr9izJFmaWfKbLQ6PjF0FMQHPW5I9T2TMKZsF58nT0qXm6yZTjeI="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\ARG.zip" checksum="0x35279CC532AB285F1BF16AFE59050E08467569FEB0D649272B4DF12688B91A3B" crypted_checksum="REovtQWLk8Csh5EG8NZ2qIimryrjsp17BCRjfiX7RyLUhmroCZRU+uC/3o7NrWEqCtNiEWB4nKjXUFNEDqhGCUxGO8CBAuZyqCdeOuemfW0GDdCTcMNIxLqGt+C5Md/W892ad5+rbZAr8GlhWxmF6jQUXBLgJqfQ2/Fk7lbhtQM="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Oceania|Australia" hymn=""
+		avatar_name="Skins\Avatars\Flags\AUS.dds" avatar_checksum="0xC4A98286DC467C7B482F4B63CC0AA38A4AC59C7924FC52B1057E162ECE87BE9E" avatar_crypted_checksum="lTF2S1y8tt/d+Sf42aNi0Sz0pEe9iWP8MC5OVv4CxyrpyNZZWdodQy69mwDceYi7F2h/C2zHTXSu3qgWk3R7wO5Pqlm7jrvJJNapkBBA7MfwtxW1DLMQSzzDalcTQRz+IRUQ0X9aKrlj40Dhmk6zX0wx0L4jA/TnFeeIjoNso18="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\AUS.zip" checksum="0x321879724A2CDD0A737CB32A3C40492555F5606F640A957AA579BA2B7AE5A51A" crypted_checksum="blbXPzh9FxZCXJFJD36ZDlLJ4534kN4/iem1NF4x+EY7R+HtRJALK1NbjXTyMDlMbOCAuSDA41y+pQQ8EfBn5i2H+U0P4DiDO4GZIl+o3n7HK8XdU6q6iLXR1F6gr/adTqD4P7oMVnB2swW3qEUzAqGnC0n48jS5lbDacNXCkT0="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Austria" hymn=""
+		avatar_name="Skins\Avatars\Flags\AUT.dds" avatar_checksum="0xEBBABFE73831D1BF1FD2924AE5E2BD305FC81FACD57BEC03D949D30F179A02C7" avatar_crypted_checksum="zqpBkaFxTuXJMjJuyTE5NfcBtKi5RokhZ+hFbOHleHTEnW7aTRNzqUbaW9phQmu0xfXbBlnOQl+mPCFk/wnRnM8p0zSWPzwJW6TF80EQ1Pl1DBgnqyBmc/qE971Dv1afsNrBjojGEnH8VvDIvsF9muve9BRoUWxVtJn+QAXUVPs="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\AUT.zip" checksum="0x3E0A0C47CC660F972DD2306BAAF50842FED82C8289B7952AC089B0CF5CBFE4F7" crypted_checksum="eahuEEKrW+ncEli7ftMK0CUy2VyQdxBo4Ba6gbp/0aQvIfUXUzOSwbkBYf9lgh7oEfewK1y4hgYGuARfzCKUpGGBgmANGdr/koJArmiOLqGrUQCPa2AD4vM0un43V6nRlarX8jdIcaCvkNyBAgiL1DQO98TigBJAynJlmy9Xx1o="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Bangladesh" hymn=""
+		avatar_name="Skins\Avatars\Flags\BAN.dds" avatar_checksum="0x9A29181D9A2793DC796CB1E8EB4DB3068E6CB20686A94E1B1CBF31BA804EA0B6" avatar_crypted_checksum="nbXJ3t7Z4/Imva+4kcJZrIZhQsIgX0kPdk817LJOJA82KdVDggmTLhat/VNz/r6SLm9i85mQLWMlxWEGE1t7AgCTdzBFSYGZ9950EZTiujlSA0qniTo9TuvuEsiNT+T3nRD1O8WD1jnCacV6B1BK3gYEX2vFvoEnwpSGEBODLtc="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\BAN.zip" checksum="0x868D6D10F0A97E6572E6D5474C5071A90B4F3451C9604A6EAE5FD6D317281288" crypted_checksum="1zNsdqx5z3NWjIBLADsC4RVdJtSMgOortCcq3XQgMd2L1IPtx6arZVPeX27FUCDYqmxg1ncrgzZXvDz3FbILCv36aXn2L2aoJhi9Pcpbf/ejz3E5/cEaVcu8Wlko3ZkIUgFr6YieKJp0hpJxn3GurkD7q6WY9Zcykjri1HEt9pQ="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Belgium" hymn=""
+		avatar_name="Skins\Avatars\Flags\BEL.dds" avatar_checksum="0xBBC62EBD9D06A1CAD5B30D95985DBF57AA567DA9964FBE06EA6103BB420BA9DC" avatar_crypted_checksum="hvv0Xo1XROBFj+vTVYp5xSYFe6tAG454hvxppz1IqgDXTlWYY/5mQbKOE2KY+r6M2a0Og8IpsFD1eEac8//7t+64211HzlZqfGlZl7NABL9QTviQkodADBHulvZkHo4n0AFD6EJcriDLNH4zy2XWljxO9YEbCdHP1LU4U6ApFXY="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\BEL.zip" checksum="0xFB28E50E268162D236DA5D2DE83C22441A68367C6B198066F40BBF47C0391261" crypted_checksum="ohkVHTj0EQcIwiVurtZ5T+McjSr6yqnue9guBxlfl0LDTXZqTM8swFfOISWNoP1H0SDM0eWG2t5fMPn4RSioTpRPSxDt+J7KAsdDFLa9de2JbbNyH78KjmhJa3xosXPnKEgYOAMS4VX/0qfc/v0lLG+ENMaTt2lcZmBIazo8OwA="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Bosnia&amp;Herzegovina" hymn=""
+		avatar_name="Skins\Avatars\Flags\BIH.dds" avatar_checksum="0x97BE7C9BA9F901B09ACDD617E9EAFA4CA4C1B05E781FCF7BD6CF9F4738B1F3ED" avatar_crypted_checksum="wFfvTX9sXR+JqLR3ZwipdPkeuKDcqqaNoIosRWVBd4/TvYey7odJ6wKxtenpcQ65BAZbDS00wFfjXDXdWrHsyj8NQ0PUEtvCMSbdtjDso92htv95NSqZIBNcZsJEYeEWEzJAcRRJNSk2eKPz0H9dm6a+X4fNomYwu/oloj/lzKE="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\BIH.zip" checksum="0x0032816EC849AB9F05CC51F77B98F84BD16EE0AD78EEAD72F9D2A98FCE98712B" crypted_checksum="ZlpZMfBZ18Xc1HQmfL1XsG2Rdy81XE/J5pZcUPpG4sTqkPUDpAeZUmdRwWIQ46pDI5E9aQm9Oq8EO63QCYp45VmFWHSyEer3I/GOACO3c1H5PofvpOZvbo4hFV7ijTL1zByWxxXHUOQKcB/JyYASzPpXVgGp6nfSztuuzO5oV90="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Belarus" hymn=""
+		avatar_name="Skins\Avatars\Flags\BLR.dds" avatar_checksum="0xF283F5E71D1793352F7CD34445A94B6F67D9D392807996455D3ACDFBAC810B81" avatar_crypted_checksum="SgD1+gQrv1nQEDpsYYUAxWydQd/JiAQPOYPJJHN39sk0qQFsEaeRcqpe4XEvrqw32j/c+iLBm5MqZFGK2Si6JLcEkU4Fr/tTSx/fGGgyywZh6Q8sMmjHxNHr6wEYNOZTfty986kp8H7uBrsxKRpfTZeoJNTWYlL+N7OepV27kcE="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\BLR.zip" checksum="0x9D0FE3863AF3A24BC6BB53BE349463F712E7AB02FBA4CC3CF2676EBCB1101356" crypted_checksum="kAqgnnXT7K6z1IHh00XSp1c9ZdZ5YgTGrLTXgkFEqhMJK8FCO7xKiLlEHlhm+sbh6RxORjgA2ZWvaTyIm+nMtfwZ27UZKcHOC0Mu+DLQvZocLm8Q6azhnU4xT4pKfvt9RBSDJNo+zyl6vFAbyArSC8duwLeo6CNd9qwmRbmJALQ="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Bolivia" hymn=""
+		avatar_name="Skins\Avatars\Flags\BOL.dds" avatar_checksum="0x2310F084820A96652E084999D43E7FF0DAF56C00686D803486353713AA7F7A76" avatar_crypted_checksum="oldPBCCtuft4totZUkuPUhSpbHlkTcBHyMYfpR3wLLuFkoqdXHcOFFJuaQuij+bMpGnr1afTOIcPxyDK6G4RvAifa+90U2E/WsmzE/O/DKUYpjRg/4GSoycBFia6YljGCBHQ59XDaCWDJPb/rUCue86c5sgrtkxNnwVT1eA1lDs="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\BOL.zip" checksum="0xE1C12F91A9728E59B4CDCADA57B1317B6226EEA5FC58A336D019794AE3C966AB" crypted_checksum="ZoIHcW+6IdoRGR/+n7eUtnWqC5CYaaAG9W5DWbHQZFF5zcQoI4LBwWF7wjUF/pwHmbj7p9pIBamLe8iRQY5BORnhZfV85qz1GiovS+Jw69PPDl9wi6bdEwI6mc4ybg5kJeqkaE0zbk/5uR2zbOV/rtjtZ8uHQ2MCwFgRbFaO9Rg="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Brazil" hymn=""
+		avatar_name="Skins\Avatars\Flags\BRA.dds" avatar_checksum="0x32984E9285F1A652E8D6CFE37F213D04E7A19CBBEC696E9163710C4CB34BEAB3" avatar_crypted_checksum="dx57TpWNDx9kTxBDF/t70qxNX8RFKjwFvE9sTf9ChbF9o6ixC/5VF1/DMKb5DtYptOjO/1gXKdcmyy9+zdDthubvGk+fS5ePGN/sOkHyg+r9KOk64cdHYiGagN28qh4IG/5VnQG53OdK7ZhuAbfL3d0GvcGBaUxj8k5ebhSdvcA="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\BRA.zip" checksum="0x898366674F01812629A0018639DBC6ED5DF6C3C2D420CAB8BC09B975861C0A78" crypted_checksum="z5Bm60K+aUOTMOpn2AIwYtKtr6Thh/hPGcMQ8i1nUcBeYv7sLt4Uahv9cTpfPuESS6E6qQlWuEJEsukgoB65cq7/vhGis0bCQV4ThioONRFJlvdvxrAwocvaSIwMM9XmM/yloj1s+LbKtsxruvTK3b2VeJOpyTWnuax0/WcZ/io="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Bahrain" hymn=""
+		avatar_name="Skins\Avatars\Flags\BRN.dds" avatar_checksum="0x9A13AE4A7E242A756F7ECD992AFD9F15C078261A61327BA661D75AA2FCD151E9" avatar_crypted_checksum="HbzolDSQgBindeKzSQ/VRGRTp1cCsRxNJ6moyl2vBHu4m+vi9MnMWRocTc2f46IBKfeiKIz+nAp6tngo3CP9buDFfxoNM7eHCdwU0BrufZmq9c3syGTut2jt+l/P9JloXdwKsKCxxhQ84NuC7D3KZBLl/KPWr2txNsNP2UC4IDY="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\BRN.zip" checksum="0xC98BF4325B72424C8A319984AA3F24138CB0760A606F383566CE2E6CF8550217" crypted_checksum="wA1HZTT2GdlLOTXteyUn9sV0lC3C3IKZ16MPAF+BlJ3AoePa/w/jBOGB3d4+kbyrDd4eff7D/jLRSxxXALYcesTxDW+KBBdOHtEyGYf72JTx6Tcmr15GtD0dc7NZ4dMdkr2JcNqoaS7MDO4n7JS/pN1dKv8vu97h2m3U7XuU3EU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Bulgaria" hymn=""
+		avatar_name="Skins\Avatars\Flags\BUL.dds" avatar_checksum="0x2AD9C3BFEF184547DA8D745AFE402CF0A5900F3314B7DCC60BF292DA7B2D686A" avatar_crypted_checksum="UCF9PPdwoIY4ieS37lkVeeuphrKJijDO02y+f934UYPdofYIuwHHVuXVWQZKPhfUUGiugfWZHoAlquszqzMUNIQSU9l09vpEvw8YpSWzc3AfC1eGjjzecH2BDWURoB6UEiyPL96sqRtbndo76ham/F8jUWEpU5TEMZ6YW6+dn6g="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\BUL.zip" checksum="0xA69442D5D02DA585EC3A850F70354EA82D9591EC21FBBF438958371AAD69B485" crypted_checksum="w9iHG/J8krDM6XvsiRadaXurJawlPrpj/aOdUF83iMebvlJ1PDdJIhtC5x51Jht/ua2inLR4eurwp7YhGmfjJb4C4VvIoJ3a1H07hv828cgWSc6AxpAVWs9tEhjMFDih5YSy2msnogi+PjUjo62f+EdiBgfq58oNV8ugEKTqg/U="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|North America|Canada" hymn=""
+		avatar_name="Skins\Avatars\Flags\CAN.dds" avatar_checksum="0x59D5FFF6E0FE08A834D49C07B29D5F27690A6065B07AFC877079BE318C3E13FC" avatar_crypted_checksum="yLTtmxVLO7JhyATAKWyUME6ch9xwiyfqK7Y//4YApfSg1pjLj5Rc/VtnW76q7R6TSJZlg4jNgRohDIvJt3IM/BwJoQPzjfF0S6nK4pTeW2ZAmn0xFUYoqa03F0goyALRjnr5A8/X04E09qUTyyNcoUdkj8kGj6YIch/2G7WScRI="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\CAN.zip" checksum="0x06E386426AB65E844054D7CCB559D82BACCB159420E8BB8A683A62E70F62A2BF" crypted_checksum="RMykofsomsD5T87DpXcHMrCH0eHP6TP7a2zHMaamtmCNAUKHoa9VFHfDKkMClF1OBUruHBzKiWj8apr/hNNHx4qj7Neu9f8x2FoRa2cUFt2idorajDg3fiffcPdD+MpCojCXntR0iXgb0gWZbNmw3cwFc10PJphxI0j/sGvA5z4="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|Congo" hymn=""
+		avatar_name="Skins\Avatars\Flags\CGO.dds" avatar_checksum="0xD248CC9E24152FFDE9B521ED7DF99B7E61D6241D0A4D23FE5755E70494647C71" avatar_crypted_checksum="hN+DcwDbm6MRuYjR9golXqoJdJABPOeqg5fg6HyrGIkUoc+GxyRWOKeuJkvOiIrLIMEhTSBdOiZarXITQQLPX2rn8MIpCqzdkC4WWpfZ9QV0B9UcroZIj+VNv9o7FoEtbWBMLpp78uJrAkvAZmnYetuqb5E+zso8ygGQQArxgmc="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\CGO.zip" checksum="0x92AE388C6ADFFED35FF7FD71D28DEAAD690B0964D5FA868F229CFC806DBC79A9" crypted_checksum="h3KOHj1Tm2IRPVx4GRzEb/5+Bug5XaidzEexXZ+FCIz658TfO15EbXcVvJdy6PC9XAJiIbBYFdEutGwy4+l4FylBdR5h8QLnCtLm57I4UCQWEal4GCNOKU2FfD8y5hLkR6K4teQDhT3p58wKMh6d2nwb7rhcHr7D/SVnmh1/axM="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Chile" hymn=""
+		avatar_name="Skins\Avatars\Flags\CHI.dds" avatar_checksum="0xBDCA4543A08150D0F7AC2D56CA6CAC9F0860ADF457B2D0A7D813DCA9A7D5C92E" avatar_crypted_checksum="Z6upXvBbTnf9pkVFujlHnazTCTHsoS1+iF/7KSMYMEQqOUKn5/eoP96qfK8TzOKoAf1acOimwhg6IwqHqNf4yqJRcCTEWHO84ihmFMqyxwhKwXOo/XLAEPCsi8KFNROCfJIFpDUgKK2oaOp6Sz8xgIX8M48R4lUvHmcz2BtwbSA="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\CHI.zip" checksum="0x570E1CA0550C5C1D7BBC6E880AE00BB7041A71F0A8D5C8BC5356880053234A27" crypted_checksum="0xoJ+XRg/TLK7EEaysOpDp6UTpFEQMWTQ29WxkN12TW08ouMBvkYeRxHM1adAIHI9t+6pvk+VTOUrRpLW6i6/bJ7qaaAmxA8vLJM/Dwf8Za2vQmqgAQA+2wx6VpB5W+UVbcwLUggMoG9TYeVfw5rI+iPYmu1C7O5Kwh7Pauuvho="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|China" hymn=""
+		avatar_name="Skins\Avatars\Flags\CHN.dds" avatar_checksum="0x8088D0FD745E06CB34149BFD9099C115C93A57FA7FDBE4AD1E95F540530F9341" avatar_crypted_checksum="wEFERv3UYNsDAgRPF6t3GSYYzfsGyStWL9z1QEEuoGmJ+g00j3rnYHKOybovFl1pFCzOcFMkeE3miRlpBclCYooX6iSuaqhiHbXgYNlxqm9u5Zsz8IFL5wmNfSrweIn8eeqBasSEqT7exyh3DESmTMSfvY0UbRm/RuEbvKNOVXc="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\CHN.zip" checksum="0x88E99ED4BF3B4B984324ECB94F27B8D8C97130F5718FC447496F3537DB73D3E3" crypted_checksum="f6f6FbYQgUsUG8NSkmEs3de3crjDwvvkZ2DDpthnMc3b9uWVUt2LdahTTD51alriEavinMq99C26rqhHR3mW198UhYYq95zhYj4icQvVLmqFIB0vDIZDXo3efHPajfdQyKQTX5GQzR5TJqojC51s8tJrXn6WGiSuuJp+cFPNMEE="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|Ivory Coast" hymn=""
+		avatar_name="Skins\Avatars\Flags\CIV.dds" avatar_checksum="0x6D5728436332F72E3D0F8E902535E3505E32C0AB863301D6A37E40F2B22A80CE" avatar_crypted_checksum="UZN9tUhmcWhdgfma/vyHrvBYw8X1P/qhUHeM5csOjcv3ToL+NSTJZezOfV+8BgN7rDAeOWhl7jcQ2/YDfvFHX3g45lGhin3+j2VcbJshWHPufCERPHC1tedeyHNBxty5A4+QvXfbmeN2JowjuVm/cF9tnHu3OKa+zJjPAq0prJU="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\CIV.zip" checksum="0x64B8E7F489ED3CD2F74B0F596AAE060D331EE88C18DCA820A4A336F61C63E971" crypted_checksum="1mvyFFUjoIL+/zC0rE7J8WhHWang+eLm2V9n0VV8oU+UMIVjCrPOGegg2psx1WDVL5ty/mxlGxmPCuRMQkdjvVBcSBkDyMNXXr8un/5mc4D2ymiRIQqa/dzJQutMR+6SepcvGvbT4fBR0+g9DSxu3fSe1aXQjcfbbAkFFSmaDDw="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|Cameroon" hymn=""
+		avatar_name="Skins\Avatars\Flags\CMR.dds" avatar_checksum="0x8A17FCD0C22459766F85703B0527A3E0789245B4FE4291CE34856D2D9F4850C7" avatar_crypted_checksum="vf2GVDC6wnnyz/qfDP1bErlRBEG3l9Sk6iDIu0Cx+wcYll/w9SAbffH017ow/NhNslrmaUi1IAIAsGUJCEFmKqt8nw8D16v1Ogx5eDRft2aJEmbJ/nTuH1JP4YqcOyDR0iwCvJpEkg0yU022gKKukid6/x68rMRYdCMStHoToRE="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\CMR.zip" checksum="0xCA9B2DDCAD3CF88621ECD629B9CFB75EB0C8A3AE414C2CEB730450493104FAB3" crypted_checksum="ijXOYSMri5ujbJYxbgK+DTpdDeRV36WhDM+/D0sMlTh8FYvWO0NzgL3K4RdKAfSDe/3bo0upD8HwelPE92rB3eLz2Ld8KsE+BnItPxrEANY25TgAx/yJ753JZtUY1TQf2/1oh3N/CAMUVgAhS5A7Fz21lTw0qhl+2A6LFtQ0zA4="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Colombia" hymn=""
+		avatar_name="Skins\Avatars\Flags\COL.dds" avatar_checksum="0xC3D1976E6BA326CC80D11BFEC6468BE1EE91692B511E57A20B3D8FBC67EB445B" avatar_crypted_checksum="NwmUOIxJ/NnJdiwviIuKY9kkfV+rGhYwKLvXR4xmi3uqFOYzUt5OgNQiGX/1lfmgIW7J1J9ND7cJL6iOLDWJAUBD1PsvJ7FGiXT6xCN3TS//X5POh//T0BbhT6X/GMEHMuDI+8/mYeP4ZGyIzVf96JSSf1QlMh7ErvdfHB+F/HI="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\COL.zip" checksum="0xACBB448D68B18E6E4458EDF74AB0BF2CA38500F4B2DA8923A06EB9C7AF3BD1E6" crypted_checksum="kyktCcezwnOx8Bnt1YRJTz4GIWCfpNaLDWINH0iIBsO/ZB8rN7q1NpnymedfHUNkP55fMDIWM+1u5JeqbtiZe0tnXS/o3YuXA9583ZWIpVX3bqD10N5+3qHh06HfMU8fUile1bv9pIujRYlgglgsV5y3KDEGbb9hpgOz/WaLVQI="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Croatia" hymn=""
+		avatar_name="Skins\Avatars\Flags\CRO.dds" avatar_checksum="0x6F89146DC8B0920586BC9055B3A6A9101D04878DB2B251EB39B8413971C81615" avatar_crypted_checksum="X/9znaYS1TyYY9POU0zg3y5mQ+YMyP+9BI0JgE0A+9euthPIoZ5AfeG1Mk9OxkiUhf/CJ5WYkFsHO9p1Cx8tl3hIv3TmM0+ndn2ThATlZmL55fpfm5eEjCfzIsFgkoAaT2JhFxAhNJWz0OIm/wn45vcfeUHk7ErLiE0Onqj0VH0="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\CRO.zip" checksum="0x96CFEEF2B796E3B6135D5302ABFBD3F4FD2AEFB3901D1ED56C003209ADE9A0FD" crypted_checksum="1F9RPC5uOP+bvlC+Xhnu7ZTvo3QQUgb98tHGDtHcCjSY+RcjuoUqKfqaap+a0Sev4tIh1WhudooDgr3v8e3o/ZCoGzt8RgSDWM/he+SAMDXHe1kWx5OO5m2EvytjJVnbupSbWnziVIQ/alDfbq3PcUuKQhC0Ch55Jtnyd/nctOk="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Cyprus" hymn=""
+		avatar_name="Skins\Avatars\Flags\CYP.dds" avatar_checksum="0xE0690931E0CD70841660B2002272E84789395279866A634F1B8EB3296045A5C1" avatar_crypted_checksum="t97Oien/yeDQIofg1o4RiO/M1YmvaGofgK/Rqua9EULbjNl/tIekeIjz84jJ/hUzdwt94Lpn5ZEu/ivm8G+DYqq9BqvG3cD5UsUVJxWGS/FYdm0W7x0EnryMnnGsg0ky0QXbTcIpt0/xpuJDLEIS23bgiSEGAb/Lxtv9Yl3+9Z0="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\CYP.zip" checksum="0xC512FEDB1D5C09D2042EB03A4D3B1D93DD2020DD92477DA837F35F7832936E97" crypted_checksum="F3qKfRZunRIDMEKbbp+C1uzirnUIoqgwa9oR9R2sTkMbvXXhUcCMNusACwqJRJQJYCc3oXJwtTUTHg3Umd4sf3lflw92EPuAweANszIpsy7yKtlhGrNyWNu4tWyUxoaJU7KOfAqN1O+cExBd+yjcJqdo6DVQszmwU1TpBsnZa4E="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Czech republic" hymn=""
+		avatar_name="Skins\Avatars\Flags\CZE.dds" avatar_checksum="0x793FB7F05834918272FF37FDCCF7542095F070E139874EAFAD9AB7F0A1F2471C" avatar_crypted_checksum="1RgI07nTkkaMTDW7R2gkRVSioRkgBSFvKOXLOiv+STEYXSl8T8J1Goi2cYK6aAtXfes/yDeESzr7fUEB2pLOCjoNYMFPDK9+iJIrlREfMkMomLQTFk9Rdp25vtvwDkTRM63xxDjAkkxA//EZekj4U2pBYcoAF/tNkvwNRNebGE8="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\CZE.zip" checksum="0x3D1B29B78C9D23A8197C31F148D9B26A61E74C65BA4BEBFB9D366A99A0CFB666" crypted_checksum="LtuzRog09Lx1AjXM0KOkissHRcrklno8qALbPdLsW8tsA8O8GjpsaHyoBSkvqE1HyGGy80cvpx9gB8gEDTxA8M69lTV/Fc/Zg6dPYYOdX8Cev9+GwuDtfk8bJ8eA0klLhtQ79KCHf2T0WwN7IEhtMiPwP9HRJB0XUyVR1RO74Kc="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Denmark" hymn=""
+		avatar_name="Skins\Avatars\Flags\DEN.dds" avatar_checksum="0x24EE5E1DFC9753E95B5B50FD0530152DF21D2DC6A5185FC6F62951F84F6EAA8F" avatar_crypted_checksum="PmlsS4Z3EuxTrih5S8McPABrewbxGrXUcWYWy2JyAGxSebxhpxcirmmJjpd1j+AuEnKFb1KckV7l4DJb97lGslk0VhncVCgmRiPBfYpzs3dILaSMceDJ7ja0olhaZT2ZEQ515aszMplFa2EsYUQkfdHC89M8aDtFjFIFJbUvs4w="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\DEN.zip" checksum="0xA2F526F84FA4375ACEE4C38FD63817C581E9874F25CFA5891A20EB52D3AC7EC4" crypted_checksum="J5xURqyYjZJlu8hX45JMeoilA+Y2V0ck2YNaBH92KluHYXWn3O3y9BS/Xn3yOAWyMmX2cW6+2Me6lRMMQCDSH7Cg/hJcLeuQLRaSD359lyrddKt2fUmJe7gyyWl7mHdFtFZ6jPnIkNkZmGo8ReDG9E8rHVHC0UggbL7aDgw9KlI="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Ecuador" hymn=""
+		avatar_name="Skins\Avatars\Flags\ECU.dds" avatar_checksum="0x4878F77051D88FC94AFF80806F4A412F17F4FEBAABAA25E04FECBFA668B14C6C" avatar_crypted_checksum="UFFXgMx7LK2SEminIK7mHQkIn1+Fa4+RwNa4hOGxRP287rum4zQzmuZJwER4gUonUkMbyjSCNJEZVeET+IYpRruD43DdgG3syewFtUv5cNAWmwQYx0b4QIAC2AgY7vuWU2LN2cutCqeZIojOUsEOg/e18KiKtDoEnZ7PTDHQQgI="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\ECU.zip" checksum="0x71894993C94ECD87E1422AD822F7928BEB9505E443F7FE8ED6CED5C88810D165" crypted_checksum="d63RXmQb8oIKEuOOMGD/vCs64HxiMXNhdpP13zhYx3mGedyxlfOn3dZifxkofQFhb91iv1CNltGWC0fbpWgRnXJzG/E6debfoi4p/hB93T0Gtxwy8bBjBc8NmYPVg2gEipghh1gNCTtwWel0cjzi7PNoUEmQU0ilu4jLBgp3/0g="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Egypt" hymn=""
+		avatar_name="Skins\Avatars\Flags\EGY.dds" avatar_checksum="0x79627E54F4D39F796799378EE8C98F3D0C90608F939BF47439AB214130C4CD6A" avatar_crypted_checksum="SP/Bp9LS5qWkoxRYLvij/lSA5AKR4ahF1Qeh9lcwropRatgndEV63Y2c8/5SS8GzFLyQPeEvw0pilA+LdlFkXjMFCdtfbSVZqQFpuZDVbShgwX5KyOlPs/obR46E/l6HqSQBV9zBlY2HkDM8/YJXw/T53Lg+Id1skTkdmVSR1vg="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\EGY.zip" checksum="0xDA59135B2CA1B24C3AB90D568C8D51E785C3F4AA5BA29FC5F08A42BE5591339D" crypted_checksum="RbvmwiDAFT8Hd3vLQ0dgxr0PeiG5Bicqe2DKvqcuqDpPZIvLfZroozItnV6wPD+JVvuARPN6pvkJ3O9O9k//oojjW/lz2FzFdxjenG1Bf1+eV9aweBqBmqkiDyxt5ZLsAT4ZjNa6tYTyWgJxSTNBHZ3HSPpK5gN6poJrUrk7/Fs="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Spain" hymn=""
+		avatar_name="Skins\Avatars\Flags\ESP.dds" avatar_checksum="0xBFACD36AE66B1F838613052692B6E9971C46DF2100A389038104E84CECD852BD" avatar_crypted_checksum="FRbkchQMPrsGTrClDJlV/8RyPLjPPpgBMRhWWMQyigzGeSdQYnieyDvYr9YroqmiVuicDYGQ/JXmnwLETSUiRO3aDzwii7zITUzgKDy4mmhswVW5YDlH9cLmKBomjJSGCEu2I41iF6nUei9Gdun8W59bND9w8Peeat3NqOXYouQ="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\ESP.zip" checksum="0xEFD480752D8B96D2EFCF0B017266EB4BBE692309258FC5147D71B7E7CBC5F88C" crypted_checksum="A4KdhMsOFF6xe0DtouQ42BDg2zv5fjfgi2slnBQbsK05k12mFVd4W6SU+wDAro5IBkXBbkk0qfalXuxakoKV4jHKSer/KQBmI7oiQ4lH9p8rlRnlr3hiDUs2h5FzhIKIFGF/cfXgCNYszfZA++0k4ZEK94BKZOfVIx/Tsu7ArlQ="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Estonia" hymn=""
+		avatar_name="Skins\Avatars\Flags\EST.dds" avatar_checksum="0xED923E9CF186503C7C0CBE1F8B514E1F22BFAE150BA126060868ED3BABC7A9A5" avatar_crypted_checksum="ZQzA+2A4rvg/ipwJUSxVk8Tu21AlG3KoaNrjSi7bp8ojcmzjob6EX7vr4zTSLHY1CxNMp+EdsDStcGk37/lzXXPxyim+emA7WNoeuqmrIJ3gxbbgx1meQ3tUi0i9bNZ5fTtYFyUjXEyEl62FHlBfe0fZ/TttNyUfJFMU7BcbhMg="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\EST.zip" checksum="0x60B6E0C3327DBEDB949E371F3E18FCE532B99622D7069333DC21D0ABECEADF25" crypted_checksum="zcrtrrl+2908Oe0M0ziSkJRYh/OBQ2peTDDNaEQu9tMUP/Kffy7CqeKJcreeiYj7D8q7K5RZlbHcLqThN+7Sb/9U2Gwm4tOrpdzE15ZukRe4MOBXg/XVb9HPHN2689l0RR2vuqVyA1/kNzLpr+GdTNyOUB89bG0IApmMDRFcIDs="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Finland" hymn=""
+		avatar_name="Skins\Avatars\Flags\FIN.dds" avatar_checksum="0x51A5A1C8DE71923CC829684EA49696BFE41D3A4DAB99BF5E7A0167664A25257E" avatar_crypted_checksum="h7QIoisbDFQut7cAqKihXfzoYtF96KJSAFElei6LEe75dmZNvJz5h+bYB5SQOVdZ2OvjtZNbiGKOyPM7ITrKDIrX5yjwfl0Df6cLDWpRAcPSxDzLZ3WXTBd22q5lTbdsCvTMnfTCyMhipaX/pReZPzvmESnKRdXSSW2jLgiRffg="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\FIN.zip" checksum="0xB6B6F712AAAB55AFCF3881D2FAA938B04A5E08F8D7FF102F27D0E7DB26DB1AF5" crypted_checksum="PfRixTjRgGAmRD+ZMpwgt1D4wWVEpfhJAwo88B6LPMx46Gw5o6V5VaJjUtWQ7V0PotS++W8bMAPXYurPyy9WViIkSQwkSPw6kDIuAhcljLYbF1514VMFr6FNm6Rse9atynDQpB9uXwFlGhij9Ol1jAUl2dIUosboG+jSyJ6Wc7E="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|France" hymn=""
+		avatar_name="Skins\Avatars\Flags\FRA.dds" avatar_checksum="0x53E2B6DA54E13C90A7B9F988FADEDE42B67C1842F26EF4B6E8C58E7128C62735" avatar_crypted_checksum="RRYSiPv9f9d5mxu7qwiCjCyxB4jElABK4S4586/r3c6Z2a94N7/5/KXGcAMDh/GvotkDr1jWsR6H095dXF9jJs+KNzyiekZUJhPGQ87bEoHoW5UwqbTPW1Fs16ev3xDHUPGCffPptcCQohywP+pEfkSoy73hp5aYjbE1LHhlVE8="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\FRA.zip" checksum="0xF929B1C9D344EE4AC552B8F715214CC3012A73F00563E3CCECFD0DD917E19ABC" crypted_checksum="NFKolgBFHxqbUOpmd1MJd7QCcv80LSL9Vv4DFZidf0Iu5eVkps5kqNPtpkdrjIZcBH15FLVNpPLrIFho4cbhESZiSKRBecJOK50jzXY1nKTBjDSmuQ5Grn1G+rOO3ePtUhaXCS2eYVo86aPeqJtU0b7q1BX6Bdr31+FqkTOEzwA="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|United Kingdom" hymn=""
+		avatar_name="Skins\Avatars\Flags\GBR.dds" avatar_checksum="0xEF4DFB18D8921E09E58B99C4A2A90FF4E97162A0B8534E8702760D83539D2ED1" avatar_crypted_checksum="lDBMmTd+M/P3G53YP8Ki3ULuV9czAuLWlLY1TSTRzKXExUPIgrW9lJJ9jCuK8NO3oPPrJBy4Olnnwqj2Xn0jG5ObDtFw9h+u4TshevlGQrZn8i4y2Jkwmczfi4ttA3JrcFlNgWaC3lYJm2/sBPyfkZvfjsvamc2wCpOfeFri9d0="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\GBR.zip" checksum="0x79FBEDE84C9B20C1E4E4A52129B1410AA34990D3681AF9E6193ECC134814CD75" crypted_checksum="BQs4fsDJCPW9OHIlYYTxDxM8Ammru9cKyEvH+kUhToa5NLg4e82LQJCfCGYQ+aZHFPjdeZqRQ+xIh/ut6W0h5s6gw7yCSkX98oIBESxxBnaL4JeMbYg3HvWpVn+WgI4IrlKU0slh7j9yE1FH79DAXyYCOxpMwqmMgIn+/z8owhE="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Germany" hymn=""
+		avatar_name="Skins\Avatars\Flags\GER.dds" avatar_checksum="0x852E26806F7D776D0C22CA7247F81D78A2B0C95F43B6C407790124A85285A72D" avatar_crypted_checksum="B05RYudB1ZJPJPbghTxWlAE1dZdi1lqhdVAqji1k/3CG6fwUur8zrqiXUj7H/BWPzchiCNOOmvFAF67gUaJY2xtv1Et1s07yATXExioO9xMmurVTZXZfCboVNr4rc4AF47pDcJT0t8IHJI08UoHrefsipCeopk/N9+m7oWK2quQ="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\GER.zip" checksum="0x0A04DF1B340DA1ED932A6B5D64569C0CD46905EAA3BBC6AA2CB879248ECCD3AD" crypted_checksum="lEArjrWbFbNxhdh86MXSwfF3A/ztcglxuBkmvaVh+MN+lnzkbMy+LH7hzXCkJPufaIjy1s6gSyhE4nlwJwwFoWhy0xVmEDGrVhgyQjd8BTcaFW5qlH7udG0wN0enOZgomRmwuofOvogWdEP6o6r17tXee/zr1kMYJrMyOde7fPg="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Greece" hymn=""
+		avatar_name="Skins\Avatars\Flags\GRE.dds" avatar_checksum="0x9D1BA482B45C0094109CE714575F1881AC4029ED52A1FBBDB8D6B7189AFB29D8" avatar_crypted_checksum="VstU32Wh+gJNh278NkJ8SA3iWfsNn+WHj4P+xdUj3n+IoiLceT5j+50a4DmtNlDW9ImF+VCtx1F2Ah58nsCdsOWyiE2Q8FRYaDNjLXqMI5Y9Ua62B8usZIzfkrkSWGefm7rJjArcgK/dUEj6oRs7xOfmad+HWogy5blZfl+u0o8="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\GRE.zip" checksum="0xEFA8E4CFF5FA093A45117B089114DE59A08752D26AEDB686CCC314EE5B58856A" crypted_checksum="U+AfUcui+7UHm/1K3Te3Hv8hoHDRMuTVjAAtM0/Pkj9V4BC7A0RmYI+tFeZkw6ISDJlB0IWMkjw/gCQMjYnysXxSa6v1E/kN+1K8ZhMcCeg9LpQJdmrSqER5nYNkhpJ+V2sUkPe+OpsfnTftTmw9M16CF3SAwzr9QDnnE+qvrnk="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Guatemala" hymn=""
+		avatar_name="Skins\Avatars\Flags\GUA.dds" avatar_checksum="0x1B41930757A6E41E0D91CF8F11977A0CB3D64527A334DEC146AA20C322A09146" avatar_crypted_checksum="fniFvGdUJpYhNewwjIHcZogDMx10MSko2ixKHl8lFePXNM9TTs9R6h9zOBKW6EoTqDWu80rfOlsz62DcBbekJb2lVp7umLlPVOwfFxprhw/MNhr8v+1c0oyEr51PEprPCfzp5k6W/iZqdQb7Rm/M+vFSGl0Aqk3mMfFELGQpgXc="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\GUA.zip" checksum="0xD5174FB878C795445C28398EA0B222734DE6CE0BB98E0AEB93E37E2E9BB1285F" crypted_checksum="b8LbzAkJmnYnDuitPsvUSv30pWyw2DMKIL39h7c9H3ynR1If7QpgRA0xNV80KWObWwgoYX4uBJ1N80qK6VNSlyaLnzMoBCTbgonHVO33NQ629VdHLWyJg4ihiSr77mnsqNY2SsH5VY0hUp9rEpLuDjA6NrDLA23m3+PX8ZlmQW4="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Hungary" hymn=""
+		avatar_name="Skins\Avatars\Flags\HUN.dds" avatar_checksum="0x77777CE285F92A21F98CE3A6DA88B00CF99FFE1D9956117BF03ACECA99786CE7" avatar_crypted_checksum="LGBVJSYZYXWUfKx4EEgPPCswQZNQlN0+4ABAW8HJtXnwXWuFeajoXXbH9E9vAC9b8xINrbf+yO1CDyojvl5Pii72L48R/UGZdi7fWZaPRGEY08Pjwrlmq5wYsK6yTaDuluBp2gpNnKG6e4PoZmPYGJdB8uEXnIUWui78nwlI6wU="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\HUN.zip" checksum="0x7638874E1104E8413CA9DA2AA6318238F926B6FF707B87F8B57EA0A6638786D1" crypted_checksum="vKW5r2qvTiJvPWceTzaud0QUkkCSMTr3jEQyqAMAd9Ebzskn3hBTg9BBdve83J5n1KNm9QUGnellrvA678DmZTW+iGLdw7DoIkLbkWIm5AzNHql+tIVHZckbIdIJsWQOImbOQYUxeY7Sy3XQYbiLb94ShYelJnSKpLQa/hegRgI="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Indonesia" hymn=""
+		avatar_name="Skins\Avatars\Flags\INA.dds" avatar_checksum="0x1379C8CB7C458380897E0267E77632FB90D86C6B7E2F61817A74E224EBB53104" avatar_crypted_checksum="xCFo51pynqmWuR1l5fCBIU77AtTBYspOq+zUHO+HyhkBqVMB+fGoJJiSLQxIxaU90p+z76QQ41KxNap8uJrwSeW9fYuLcNh/ztS7e6y/o7sFQAtYF7Mq1VCEqKwD236pfq+ALJoIRp4s4lEerKQNhzdya/mi0rKB7d12/nFa+3I="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\INA.zip" checksum="0x99BB2845A8855203A5647B4C3EC96E22C90FF22E3064A9FA0B12CF6E0FA6DA43" crypted_checksum="ajRN2Vcy6fVdfk5kWbmXlrqgT4vYMAx5XzU1wUkC5mEMPNsN+3WGQJIQw1hDJVyl5+PdTpUr3p/SkYiKNCkMf4o5eGn2KVtq9J6NbHy8QmqCf6GUyp3EQ95nRrW6YVdZDsRAG9NlqzSv+zX2tzq3ZFo/qIZ4L3aPHscJSQkF+qk="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|India" hymn=""
+		avatar_name="Skins\Avatars\Flags\IND.dds" avatar_checksum="0x1CDFF297D2955D1FDC3E9C2F46A33D39E58291CE60E8097C26EED5940CF7D990" avatar_crypted_checksum="Izsowd8OECz8nCWYERj0RhWI2Kj1vNb/a2KpW6JDYw6NWt/6B5lBzskZy1S6SXw87uYbcPQK8aGLf+SD9i8VdHDocoYbUE8jko02qOhX27+eUrhgIQs+flXE72z8DML6glAuJKRun9HD8jTI+eOG6BhJu/SvFh0S/vtgS1HA8dY="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\IND.zip" checksum="0xD887A5D22E79E81A1D09AB1C2C39B08E27C6AEC931034A8D2B5B55D332C745B2" crypted_checksum="J+vGgeLufuNWI6Vq9Y1wHKm9X06V4Ptkp+YJiUmz08VUMvBW3HftCWS+69G/HlHIJEtbz73L0oSVU1WI32NkumiKjoZVwOYlzko0uZuxmkYBVEGCzqWHreZmSf2vISl6Bo1A+dgSBwVo+NhRqGid5e4C3xWi9jsKrHRop4cpr8s="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Iran" hymn=""
+		avatar_name="Skins\Avatars\Flags\IRI.dds" avatar_checksum="0xDD33AD9E21E4A894D8A5E48A1D5D918800A16F0F5C192629DFF8D97C177B3F47" avatar_crypted_checksum="AYgq7VgTrCCz5JX/maWK2iUEiLVqZAeuuRTPOfwTQ4Lu6IcLe15Uk+PBV4QT5mWfoS+yVTX8KGzxwbHw9zVpGdx6/wgbKDTVJ5Yqwv1+rkvBcK31lK7tdX5j/xcXj7i4qBi941/qDATm3tHMNyE/ZwUILPSMzW22fketv2S/8ac="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\IRI.zip" checksum="0xBDF2BDEF2E7877C784BE20943BD6E1F853866F85587872EDD16C5B46F7E6B561" crypted_checksum="Wjm/gU2hG1CMeTEkn+2VJb6BF5/jUApFNdNWUE5g1aeHX7821twEhGzMNgJho2Z17t9ZAkI8HWpdXTmRmUfBiktITapBlB7iFM/LWPjUktEp1htwPzEUGbHmnnXqOgvdQNk1os5RFXYsDV4Vo592g8U6jj50z7+uMP1sJ43PDH0="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Ireland" hymn=""
+		avatar_name="Skins\Avatars\Flags\IRL.dds" avatar_checksum="0x85055B3DFD4762838F5E39463B3A494F8D6DB80FA0C4AAC8BE654F32D16A7C8E" avatar_crypted_checksum="M6aSEFepuUIKQ+w0f9PnOcsiS9Hmb/vr/wqVSzQJxIbrEyocwUYP3dKhMzx7I9RVwJk7CixQUzfKn7lDcMBAgs7fdKmYCN1jJji0qUcUnme48bbiKMbN5jfSNAhkF4DWUdVbh9VGqjlc3PXFB4l+J75LFMVNsF5ynQBGHLadTq4="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\IRL.zip" checksum="0xFB16E20E16BA26F2E53D6EBC9ABE7543A3493D20D062916B40568D2393C3A1E9" crypted_checksum="1fnTKG0GzLGakWPLdJc7dOBUNaJocyBhfppLk5KAv6h5u33q4iVnfrtHwCygbbWFPgiF5vtct6zazSHLTv99/vLTvQmonF8lzM5jek3fFZ/GYNeQ+MM3nhf67pkVDgaDzOd3FxMxg61wCpRUmF/2F1RT9dKq5X9EraDMjuUd2q4="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Iraq" hymn=""
+		avatar_name="Skins\Avatars\Flags\IRQ.dds" avatar_checksum="0x5EC39F0584B942CB1D8B587FAD04B83DF8868D9D46AFE0CD2B1746708FA292B6" avatar_crypted_checksum="eK80ePvJ9/TskuJqPI/AFtffKGUcBvgn3punvCZ+Hrpao1oyjNWGzUxBFgKWrG4LaSRa6AOw0cBouUiTBliD+KLLld2PuYGdtLBIDUePxjrBp3RwEJJsAH/wNjKblSBZbFbW2qjGXk9lVfNAo7UWdZfFGU6D8HfZpC0B/h2VZdQ="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\IRQ.zip" checksum="0xA979404503A32614100DA604FC78B37CA220E4A6863B5AE1A014A860BD105A06" crypted_checksum="0eSKPgYdyftQEFuaPveOFY5Gy2fqTNA2xNZPH8Ri5ykj2ZywXOdId2FwvyTy7jEQgaYW8SeilG0PCrwzChoDTqPYEySoOBc7Hvv9XaQANwm49VLoc8Oej+u2AX5PF0VjgNpUCUaexHmmLuBjlTL0Wehwu9q7Q50pRtM3f4QOdpc="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Israel" hymn=""
+		avatar_name="Skins\Avatars\Flags\ISR.dds" avatar_checksum="0xCC9B69771488CAA6021AAE1F6284F3D4CBA651A6304CB1F700CE365D6D8BC1E5" avatar_crypted_checksum="YAK+GMDJ2QvaB3vDNBmdZzeYhzNs+hA6uynHZGcrdKZh+TdLZ3oFTcvTgKO+LnGoOJx2fSmve+MvVmUzoe3deGrl3tR0HK/QMucT4zHgM7XBmI34kmOeQQySeMinPc0H1W05aSvRrwtJfAtJrhspQ4fyQnv3d6nQGdxyr8yXq9I="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\ISR.zip" checksum="0xBE0609FC06D699F346F0F14A5D1BDA502923255278F5F675D015FDF94137D18D" crypted_checksum="yihL5cAUXVHKDEfxqAt2acLx50QwuBD8f9df0ws/jyxSxp2KP/2nLAguHFsA1azMBsVYNEJSYOZvN9HGfpun9OpH07NtoLUL3ESy9d9OVKOc3JaOUT44kmXe1xUbpgKG9hD6Soyp+noCWZtIadzd3Mn+99GfovUp1tLfDSxhNn0="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Italy" hymn=""
+		avatar_name="Skins\Avatars\Flags\ITA.dds" avatar_checksum="0x916C435807351D132C9A5042CBC2B36F06F4E913482C7B39B2CB049A90309F59" avatar_crypted_checksum="CDv04yg6WJEKKK+EvmDSBMIgZKD5EGv8gzDlvh92BT9ycyhkjuLvmy6v1lWKmAjlKmjTx6zFXXxzkEZGZiIary8o9On2R2da/UmFMRqTdGdimYXm6Vi3i9EVjdK8/G/uEBbXKC3Dpga29svSTCwrOSs3KNtDmEsvOPVViIV6VbY="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\ITA.zip" checksum="0xEA09214482E20613C7C3252B5A81B9CF58FB900007A9B8D25324537EBAF8745C" crypted_checksum="Mj4YeBWSfJxkM7k8rSQQSQuifbJVt7Do+Nu8EElny1Y05Am6pGY/6BO8NNO5gbjUupu70WFUy+xoGPUNsm6q/jqAdCAPY6wx2Tt7vxBD3ZiKOsUWIiSZCdTGXSd1avHgtAFA8jKNe1cN7R4lOvpZ8jcBM4oaQjejiPJFCH+lVr8="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Japan" hymn=""
+		avatar_name="Skins\Avatars\Flags\JPN.dds" avatar_checksum="0x42D78306574A365CA4D3C53EDE1592680873292E1343BFAF5B471CBB3FE53D27" avatar_crypted_checksum="wc0n8bJWv1V5LFSZ3atcd8db7zi+jOjCmsY4wnJw9eXeDfgOollj/1loPIWzGraFykvv8EWyg6Xr0cLGv+5aTDM6+XIPJ+CDFw+cJYXNYEcUEAYkgaUmJ09uE6payS8dCCOzD9fkOI65ebzm+Aw1UP292Iz/GqNiK236TTKlQOc="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\JPN.zip" checksum="0x42BD7184B6F2600FDA4B1B74654D9C961936852F65F79D1B4603EEF06BEDFFA0" crypted_checksum="FVfPmERokQCze1vi0Es/ypJt6FLT37om+pAmfyWRP3+iafLuvwzg2XVH3Y90SAgVtJuvJ347d51Zw6uNworC4b7yQVRbZ8gQA32aDbkjo9LFvFzLW16JwlsmY9AIAo2n2NRD/iWeJYYHpouJ/v9M08jC8Qe29lHtMJKTnHfAn3c="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Kazakhstan" hymn=""
+		avatar_name="Skins\Avatars\Flags\KAZ.dds" avatar_checksum="0x410CD1E9293825EDEDC1EC6037DC577E1DC42289D103AB64A33DE0CC5A4D291D" avatar_crypted_checksum="db0PsYl1DaQasrIRJIdDTIZWbsS2eEzQuxueHHL5OVYK99NynyX4FvXL78P8sVzuSdJTVu1wBLvMgiQD5vgWzCTXS/i++QRs2AoETIw+fSIIONGSdJLLWJJJDMzUQ1AeEbSw1rjHEMQzgYM2l41AVwekW8W49L2Qfibrj5TZdzs="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\KAZ.zip" checksum="0xF2F40F1D39366E8FA2509490241672CF7F6CB689850ED2E4EB1645CBA7079B89" crypted_checksum="U1yHcs5vZVjbosoDTVi6kjlEJRRZriLHzly/+rVuSYxC5FeV2skbXyzUN9q6wreg/xTptocKX7Ry1eV6fXzIzmT9pxwIDWzYsrF+9QyKdTxrHY+8HrQBFQ3xSD17ijckbLBH2tMnOio425YSDsEEQBAinyvIslgVNH13iyraHDs="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Korea" hymn=""
+		avatar_name="Skins\Avatars\Flags\KOR.dds" avatar_checksum="0xCAADBA5E979FD4F064DC91418ADA5DFE25C648E2C43EB80C09D5692F87B86D4E" avatar_crypted_checksum="V8oh8iqZdeeGESUgejYuzyUDBTmTJ8U18wnlFOvt0f2MTXPwDHgsiEvol4jNzYZwRK9kV15oyXglpMRQoTNmIbob0Crfo2NwzMIENyOhnzD8IHF7Ca0DGRnYw687BONgjhQuWVTm3gdH0EewW5mYsgbkSImXI/INayjOM7/IrHM="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\KOR.zip" checksum="0x957B5D9347F8FF28E835A77B7CDA93F6F196CAA5C0FFE2CBD2B57AC97F8CB717" crypted_checksum="IO23ZDILmH0PyhHQxyz/lCfkdoMK+GtMJNLl40AHMIwhnRuj6pCwAWf9pBbAEe/ZevBtXr2xd+Agv9tpJnLPqsTEHZdVXK2zJ8IZi7BT9HZoQ76h+8zmfE38P8eekYiH99aCD+pU0SRu04vnYXwVhccytO8c4IXNNDK8bDhJIdI="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Saudi Arabia" hymn=""
+		avatar_name="Skins\Avatars\Flags\KSA.dds" avatar_checksum="0x341AAC9C9688417429E83A2AA38B6253B935645A8522F199DD899C4326F00747" avatar_crypted_checksum="a2CCJ955dF08Fwca++TPuD/l3qfDV13B94l7Vkhm697Nh/AdoPHrMQGB6qw+Mguta+yPR0Q2Avom1TgSFP+JEyMal+SJuzA0yPI4m76o8IxgxYIpqMEzBPUxq7nZakaHBEEI5bGE/KQAZ0bQvGxvj+N/PGGqgD6YcIpi30h4hDU="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\KSA.zip" checksum="0x40A6507A1FF80FBCE51A0BE8AE27337A83A6F73A2DBFCEF20BA741D378330F1E" crypted_checksum="hz+2BYhyUtQJVj8p/k/J2jo+TRQ2Wj0rzl4vrmxn1MaXHdo67qsSWNHCjk9FjQbaL8KHMH/o7T8aTqnH0cEu3Qh/VUGYwkp5ybO4S6IeB2hrFqhi+s8/ezpwfLFU/VTMhfRsLAGBRTpzNzBVQ4eJy1r7uGt6OM+UW9CCgatTHek="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Kuwait" hymn=""
+		avatar_name="Skins\Avatars\Flags\KUW.dds" avatar_checksum="0x3636D228CD845B29E3A9C664E0EEE9B998932129B37AA7ACD86BFF6297BB414C" avatar_crypted_checksum="VEreU7qm5ta0FZjhcH7mH4K9oC+bZbcytPY0+bkN7e4J7RhI+EoQEw8ewPb2fQApD/ixv/fABttTkmGyDWmB2FZOVuvBXoSE1fSGbCtGycr1r+9cZmuxWuyTyOx+A37JTqOrXWGWQpywO7x8u5xOBpLyxNXcU2QPOdcAr/mXdeY="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\KUW.zip" checksum="0x67B398BABB620615C41FC7DC7E1D74AF3459266ECD3FC6E0DCD0E9930090CE96" crypted_checksum="j6eLyI6qncTNDaT5yehVRhDT7LNBQ6/WGjkOnqJUvGFC9kd0p2l7h8ngM6khIuBtwppvfFpTVUEQuwZVl6DA+2d7KIqulNl/rdbQuZUnx1NVaI7YPj2erSPJZiMObpgo3Y+td27xeer6QCfaaD0XsvtnK1dZTiSuX0EN5jl/Ywc="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Laos" hymn=""
+		avatar_name="Skins\Avatars\Flags\LAO.dds" avatar_checksum="0xF5ACE5C3B289AFF796113272D438E44209CF372B8F920A86E666E367431A3E03" avatar_crypted_checksum="lgYHywyPoJ+P8WqSdtWcUlbTWAJFtUIiGuN7oLBOpjSV5/sb5GzeIP3lRaU0bSuw4KljRmB7TngltzLN4Zxbamwt9QAzWGIT8UmTlfFTd6f2W9bpPdn5UjSgijQttopVixJ8ZQzhgQDDH1BoIv8Kpn6ZIcBIjgDlUndCpLncAGk="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\LAO.zip" checksum="0xA7009F476DE13108A548363F970FB766089A2D37DB278F9B7E59DCD588D0D038" crypted_checksum="0uIihmkpPagtmkr9ZCQShN3vIgRfHPh086J7A5DLTZfEd3LZ2aSTutTmUzyVIMUzLSqvHH/Elx4J4sD78JX3RBV427MaZsDq8Y/YzxfkXZYHNu/8mypAHtkGk2CVjvehlR7+nGhd5hdb0Ttt14geZ9V95fHglJohIIBNovG57o8="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Latvia" hymn=""
+		avatar_name="Skins\Avatars\Flags\LAT.dds" avatar_checksum="0x23FA280DEAA9581520A7838FA53D4B635EF077130DE45BA0050FCA8C5E642DF9" avatar_crypted_checksum="GCeWfrlsFK3V7OKABnMvh0J83xsjQYZBSmupTKiT+wr6Fgk+q2NyuURlEXqmlWJokRn1Xl0947K4BxS3wwKLUwOHLyl0MG/+cxudUSKxMX2LZZiNPzVRpb/PXopwDgsdA7I/D6kMELW+N5PE1sj3C9XvMTHnut8dhtrEJJ0XejI="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\LAT.zip" checksum="0x29CA43770ECB3884E413DC8BBEA797FA608BE6B2DB83F98AFFA953193052152E" crypted_checksum="DqJc7oxjHN5t0s0hsWtLx34UVUcbPuRJojyGW2DhNoFYdK46Kb68pTPtCs195AdRNK2gi+4XQVMVuVGyyns0JP4WeQN+tx2JdT6dSXcMweAFgKkJnr0oW6c4KWhsXMZleTsrjCTb9upbnz2dc+/TP4aDJslZRNUr0mK8QWuqbdg="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|Libya" hymn=""
+		avatar_name="Skins\Avatars\Flags\LBA.dds" avatar_checksum="0x168A4EFECAD9B6978350D768EB80DE647244F5FA941F83456A998205F258CF52" avatar_crypted_checksum="pDGEmhZiwjxrpw7xhvkL9fpw0p5MA1dmvMjVosTvw8XBFT8Xoq+PY7T4l1cJppCmJb89MgWU3Swc5+MQlIELdMyKgL31DbgF91lfwfK4F+zvaWkeCEdTFQiFLSNY0pv9LEXwp0vYz5y4SJMtXHZlF1vUsoYYCn5lT4MtQfgkT94="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\LBA.zip" checksum="0x67EA82F26F8C177E4199A0909476E7CCF6DF733B835D4D9BA1AB5C535189C1E3" crypted_checksum="uk2ow2k5nRRPxhlRk8zMZzr8CP1Ao3CaWJuRBmfg8eOFyPPeihaCQOirTFilXvqPI3XtwbA6/lNxn9RxUWV4vQsyI2bfXXwVB+kQAc+VsdceRwSP7ph2m8VyZUCECAzRqo7hQyD70w6t0VRIYp8HPp7pE7nTlsosJzSe5uqWGk8="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Lebanon" hymn=""
+		avatar_name="Skins\Avatars\Flags\LIB.dds" avatar_checksum="0xB82378B5C9C55BEE4B309241748219023B3EFBB97D31D65C4E12D1E8D3A5D555" avatar_crypted_checksum="V+ObUazws72J/KGwckkXCScaQWXOrBIYkMO6ln5baj7fQoqeDreOkL65wvTjUmY3JHwLlVYq5PrfmcTMBtZxJAUI/N3cvzh837Dy90wLd6p86KdqIMCiH624wYyRyi4rHccOAJ8JL+8SB47l+Z17uA+6+6CPf9R0A9q7X9qbo2o="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\LIB.zip" checksum="0xB735A4558B69DF88ADB9AFD9AD407904BDDA05C834128A8FC1525B9FCBBE6D37" crypted_checksum="bOFzamU2Gj05hx0YSd5TlHqc0FkuGlHlK+/jaDn/2dg5V1EdrAjMXfUwfbvUAJ50O7ItN1vCnUIP073UO3y1k6qAzWuUfqTN+kKpkYSvxLpzds41vJzWAX0emPCvZ1t7UV7LdORgsDMArEG10paSCgVxORVyJ1jhfSwuEPCeGVc="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Lithuania" hymn=""
+		avatar_name="Skins\Avatars\Flags\LTU.dds" avatar_checksum="0x073AA91AC1A2E826962F04CDF6AE718F7F0971415B148F423F32F876FD8146F9" avatar_crypted_checksum="weBEUQBX/bQ1D5daYJI3coKlUkySMtRLZALYw8EsWfxRJuIFWXpeUKHbv7klfRbSBXqRYtLYk+jGWoQ/TXkPS8PuDZnbr24nUdkRsqzWvjixui20PqUtGePDxZQFi5Vg+j2+YmpKWQL/q9amfg8XbhjhQbnB5W/ldB6192Z0VYo="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\LTU.zip" checksum="0xD8A2D2D921E2F0DC3F45B760E8428028774039C835994CEC7BE1962644172188" crypted_checksum="wTygXv7HHpNKXFJYjZHwAydwnZvU7N5sEcn4A+O8VSWf12+Nl603NeCx+t/f+fkd82s5/ELE2H1LXrIF1pxrKzRRgln6TAzzGQFMiDbjBEHu39Q+Iwf8/18+TZo+8mFwZlOaey7Kl7Lrcny0QRKl1xYTFZylWCP/p1UQ0VnIhf8="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Luxembourg" hymn=""
+		avatar_name="Skins\Avatars\Flags\LUX.dds" avatar_checksum="0xDEF7FEC9C13C041666DD9CED86D3862E1B57293571C8BA4C2FB0535609153BCB" avatar_crypted_checksum="z4P3P9RFDhErwAYDE/r8ZTlft1JI+8lulHT5xfyaxNo5al54uBPSK3ZFpZ5HoupSQ1YbrRMF1c+f/JMVRTgBcPJCIZUEyJL2CRVkg751GJzMMJgT2zbeHF+ihDnGSsaljhOTTeQv/EB5gNF0XMRoWi2e/y5yPfur/GiEK5i8jzc="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\LUX.zip" checksum="0x8C6F7A84357AD0653122281971BA46CD9EB775E9633C352AD391027359E2CC7E" crypted_checksum="uW4UFR1LIqBgpYsUGxlGCnPWnuROmrApTh99WO+PXfK54iGk0mXpXK3chGxwu+Bsq3Gbm4sDxCjpjV2cmhfpUAMHE2KvLKpYdisg0QIgxAOULp6wzNjuXF5ur86wmcAMsCl1Dl21Jg1sbv8hfkVYhayB0RGeQZv/YWvNehC4qgY="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|Morocco" hymn=""
+		avatar_name="Skins\Avatars\Flags\MAR.dds" avatar_checksum="0xD10CE544811D873FBEE1E48C76453DE0D2FB4C3ECBC9061E4F74337807FC2063" avatar_crypted_checksum="3BKgKwBdblBWLqrB4wsSSglotOfKOemn7CLiXLp+FWT9ttvh9NJDuIKYq1AdGdxCZTyRq61eMunnmM09r0VRL0tUeLi105atXet7oUeL8W2Z0pa8jJhlW/tOJK5OrIHVyF+Z1TWsEZW4+oPp1l1UKRd1n2CeRAa6hz59NU/AMYk="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\MAR.zip" checksum="0xB5F2721A6D2F01BC2080E701452BD2A76D130D7194BA91AD33E6A7D74C4DEB35" crypted_checksum="Moa7iILE123ZiOnE03BEq3pGlkD9ovk6ZO8nVXO7CNGXzgWZpyeGzgLdIAQIMXpP/F53ZZks5uf00O/JakaD7Kun1xJTz8hIpiWanWqZ/tsIKfORe2ZQ71ZaWEl/a5Ns9OTA+F21uU5aLi4iaXVtaV/MsasM5l6nsi7vM3UDEpc="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Malaysia" hymn=""
+		avatar_name="Skins\Avatars\Flags\MAS.dds" avatar_checksum="0xBEED10411BB8545E94B259FEA050721C8EF3A2E8B2E59D16E6E4BB6C369D5FA5" avatar_crypted_checksum="dNKSJr6GinVc7PqB3+g9SL92X1MUoGt8lodaOs/n+8sz8ny5gJ48jP6Z1p5k5RoCD6Huz4zMiYR5fqARgHSuG2XH3G2cedev+ir3DQ7RkE40ibUQSjNXxTmAvjSR67OJUUs0jBJO3S0yUT+NUHBWTK+DtMM99Xv3oZzTnMPVadU="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\MAS.zip" checksum="0xFAF660677AC262051202AFC0C7A28902643EBB3335E475667F29CDC6BF359400" crypted_checksum="XvghqjqtZ6GnKbBDqO/iIKKP0KGC5kafL4l8Z018t27qqzk7wdr18s5M4ZzijLRLGRYfCKHaDWxwaXaBi367kB+2aehS23BAmJmy3o0Ap4zqe0B77aXz+ZcLkahUQSY6CDCez5uJwzFrNrdWGK3yyCcpJqnB0Yu5PLFDHSbntiY="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|North America|Mexico" hymn=""
+		avatar_name="Skins\Avatars\Flags\MEX.dds" avatar_checksum="0x27D3D4E30DB78AECB4C675388607C66EBA1F27F21DF9276DE7CDEB8780A9D4FD" avatar_crypted_checksum="f9huQ9GCETlUu3rwf/sFL3JTN+aaGmfoE8XYXO13leH5oAuElpvVGaPm1ZKbJdoWdtRiS4C5agAn9+HOP24oeYWRgGm0GAhq858Cz9E5qn8/Dc7T5r5btISb/gIWNre7tK+bzpl2J+xgxZX74ym1PbOC+TtoAAcubpCNwuhABTo="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\MEX.zip" checksum="0x11554899ED7ECA0716D44CA712954C03A4F9D1D4CF9EEA421DF5E1CABDEEF460" crypted_checksum="T42YUfEBmy7A+5rrPxQLxY8vgLqVQ/f3NuZath2sLWzVTQD5aQxQ2gxyP/zlSW9OR/zRtY/c6LWKgZJgclKvsuXNfBu/vUb5QJgJusAL8ZjmbIQeghvNKvqMBaB+ro3sL1FjcibuFWkrgph5Brnwp7BZdSW7vR39HOf0UT4e67c="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Mongolia" hymn=""
+		avatar_name="Skins\Avatars\Flags\MGL.dds" avatar_checksum="0xF5367DE61319B7EFF8A1A755FF0906A9DDA0E6C7F7D1EDCFB553C16B708553DC" avatar_crypted_checksum="YsoWRcKc0+P++fZJ8qqTjbGbrC0vrwvLzy3rILDD5pu5UkCY9ef521YVLQ6cCLtcz7rZSoLINvCM0yrVd1HDSZEiL/BbHVQODyIVWDpJYfquJG9hXDACgAbj0fo/bBqaslI6vz4Z9iD07s82X2tXhK2LBu5WcRJ38qGwcPSJD9A="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\MGL.zip" checksum="0xC173FFA4490C3A40386B67F76868E8BCE22FC89F37457986EB8A1A0611B94C5F" crypted_checksum="s5YmZNynn3JvzOOXyVXbT3J5STWKRjQ0JEIq8SYGY7rrr9QGoAd839Kn962EOhOSTkwAxTdJbNKWdc2qS+lxHxDyvpYNVRvobYgqxWOp0Hr4tgL98tgIZtAwDUlH1Vw/nmiwcnQfLv6DAH5kkcyUUPdHNAA5Y86RLYENu5RizxE="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Macedonia" hymn=""
+		avatar_name="Skins\Avatars\Flags\MKD.dds" avatar_checksum="0xD349C194A2E2393B647D6A254E28CA0A41D6487AB4D1756B2D6B1878C75ADEFE" avatar_crypted_checksum="QSXJeEcirC0AvkznXpKrC/dgS+wHkCy2qqlJo4m0RsS49nzIrG0zn97nOk7iNHNb1azEii+Di8SASMaoRkvdxjDRDqzq1kwqm6XTGCVB3C/wmmN5aDCqgzxuTsuzXQyCHKinjKsHTMVJUTwh+UpzQ98o1t5H+OWTaJ2Y0LhrCP4="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\MKD.zip" checksum="0x39828803DC8064D4B868242FB026832136CAFB34531EE7B81CFF4A3C02C7AAC8" crypted_checksum="IT9rAONd0+8kXEWJkZSPKFVbv8Lci8Pq1RC0VlICnwGCErBgpHlxnc+FKUoQqG+e2Mcz2NF7xsIk7fkXr7C/kJWRt2BnvmILHV4UYM0DNF9xb885rCcjqneZHlTnu8Rm6VrS4fICtGkFqcUphFRCWzqCuabrsDapPeCpQApV1Wk="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Netherlands" hymn=""
+		avatar_name="Skins\Avatars\Flags\NED.dds" avatar_checksum="0x8523A7DC5549208EC4786534A8941C7A1635513A6AC14AA5AC6EAD519B1C293C" avatar_crypted_checksum="eF97gwWwCL/+sO7631Tcv3U04+MdgZ5m+CkxnCEEoqxADE61kESsNDjVd8Kb4y9t3H+jW/79JCHQL84RVm3I0JFkoT5nsJdfnuJLdk0mXqHdVQeRUgbNyzHgXh45setqkKYh39DboTLQE3n3AYYJtZyk95OQ7pYqhLKV7wI7FYA="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\NED.zip" checksum="0xEC4F4B25799D40AAB4AF0D585B3F25D5E119B85EF2DCE14FA63E9C5CD0AE185A" crypted_checksum="C8aSZci6QGSgQb+ZM9VZSdwKpCkS8+KC7iS5s5bwzgJb41gDxx2T2HgWiWeW4FGfY2un0illFKHjF06kx99zOduiFiThxeD+29CC7jeYOMLk0tPrcOJkfw56x89UwQjpadyw16xqNUm36KaqTWYUH8beS8jwprwhrR3ZAHMa6Pg="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|Nigeria" hymn=""
+		avatar_name="Skins\Avatars\Flags\NGR.dds" avatar_checksum="0x7163D0DC60B1B3B7725EE91C6929C296A387D1CB9EB9EF11804C98E767AB9C51" avatar_crypted_checksum="aGQZiTd7iveStiXIu1M+uBS0OvvpOsYjGfHuHG4gKVBjbT3R9+wQrMNsirf2qXo74zgquA2sVdjZTJlChsFKtPyiHmJSrOCzRTzfLZ1PRVJ3MCPURuR/MaTWDtBfYZItjwXAGYa2b2mD940KDBkxndlqJdxbhMOB7bVlyWjgeFg="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\NGR.zip" checksum="0x45AE3C3537CCB9F48E09AF8C6A5A478F0250B71EED7E610EE4C143AEF4A1BBB5" crypted_checksum="yFYRv/BUszB57oGaG7ennB2gHhjTHOdXLdrhPDeT+rt7yhPj/sUsXLbBLbUjZSQLHREcw+hmPMwaD69C0fev5wY0SIlLOC8aiQ+5ls/QrD80A1cFqIX41zAm+e/W+NK5wuHFpDkY1b3AONsujZDI41Y+OJVZznInybrxfsLucoQ="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Norway" hymn=""
+		avatar_name="Skins\Avatars\Flags\NOR.dds" avatar_checksum="0x709C07C95DC0ED5842DF2DF5D9060D600EB8CE91EAB783222FFFD7D1B8D2F56F" avatar_crypted_checksum="K+VQQ+EwtMU5ht6GuRbOiSF2KTJG9S5GqXmm06ZSNHmtdrVCQOxzBH70fUR7b4hXufEnvgeVHxE0F4hqLqNPXC2rqjy+FcdIZy86CC2a7P78am98D3EG49cbTO0OZlS76STU1Jg5QAGW4CphU5O1RmoUMzNI5ysxei20G2/MrvI="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\NOR.zip" checksum="0x06C19F33348204D86C27FAD768DA3639D274A3B6F5788F59E267C05CC90672D7" crypted_checksum="gYzyLWhCOixooZ4PUk6tRLWBt2Selei5Nb42I+RPqX2HHibmDVZhtQzm8WLd1lbdrUaUunjGXXZXnMVrrC9ZYgOXCoP9NY8B4oxVLhjj0SLHoxs4imsM/Itxy8T1zzPYwHL0RsMnDH6+CAiDjCXWLbu+TDqscAS7Buj7BMwPm3Q="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Oceania|New Zealand" hymn=""
+		avatar_name="Skins\Avatars\Flags\NZL.dds" avatar_checksum="0xFB7FC957B168584BDD7BE2621315C7ADB42AE16BBA502167A4B9B32EDD23F45D" avatar_crypted_checksum="FLb3MowYQBVghXaaPLX/wsDVgw7E/2ouod+/jUbl+4iqa5dI3RhWEGBzi4ZxWAgbDEOM3BU/2DBsU5osNpRFyNr0A5Vizfzfl4DgzIjiAE2t+/+17WPLrHrh2POcJeaqd0fhLOCu7Og0PMjLeJl6Rtmo7rtT5+QIWK1jmzXAyWs="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\NZL.zip" checksum="0xCFD59D36CA3AC7A38EB796E49AA1F27C98CA9E5A4EC9D419BF7182848A7D4F9F" crypted_checksum="yDUFeyZodQ88K1RExFGtcOqpbqDYD2NHpNYq9MgxphORXK1JGzEQmCQJlUQ4eTtwf3rWcjHvGJJOgE0USJBELFITOaIKpGd2kzWNDbV08WlabEQRfpvCwAFw4xIONlXvcl3k8yliAG1SuEpzYztOdiA41Y7Ezf6/6jdSuZqomtE="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Oman" hymn=""
+		avatar_name="Skins\Avatars\Flags\OMA.dds" avatar_checksum="0xC97E14FB47BC8F5BD2E609400ECD552F9C78FF1EB70E72E9B23F7AAC42C057B8" avatar_crypted_checksum="tSeYGaCryFH1RytLegdRjbfI0zwPJaQwpISZANnavL4qpZFT8Ml5RY9t8x03xGiKWG3ZOq2iboFJR6aiOFShRfQKYfBgYztXXGCKVACOcNrRGhqTg+rdCfTkusE3pQMCFpn41svK6ge5ZRNTxuxbBRild7gaatwnlhNaNyE0nXQ="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\OMA.zip" checksum="0x3E1A0D82C688984EFD53BB97E9D93093A75600DEE6F8FBDEE03B927BEC7A9F65" crypted_checksum="AoefDKDm0SnfbLYQV16rguut+tl0quGuVwznpy7cKXHmwdvz6Jtyl8mHCJkubEoFveGaR4bYRhfcH3NTeD7Y2b9l1H65Ac1fkMliNCbGsUcEQ3fwzj0APkdahteiXq7JpzG2d1EWivfkxgMgjI7vXEYuxNdG5KNJygpup4Zf24c="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Pakistan" hymn=""
+		avatar_name="Skins\Avatars\Flags\PAK.dds" avatar_checksum="0x3FE3241E444EEBA3B9DB6252459D07317D6FB6B3A471056E25765A0641233C98" avatar_crypted_checksum="yU7bQjEjwLjVr1rUzjo+TA1Bktt0blJHGGmncrhU1MSy/6WdbkFN0wabuMbcTNowdqVF3y/MHSgF6A7MiV5bSeGPLc2/KNMvlY/qve6pGa7NTjaUYYuowXLMWeGWFqsbmyVD9qp4H7nDD+9hrgfWadRKxGBQhExi/PnaSymoOmM="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\PAK.zip" checksum="0x3AD82B7F5ECDE21A9C5A4B1287BF06F7483C2DF74A7C5E5FAA3EB312344156A4" crypted_checksum="r8IBJN+dEdmFPqfkmNr8lvPIQILZp4WtPz34yoHhLE2ip8BmJOb/6Mf1++hZtQovP7gYYQ1xRqI0AV/xVT+9gdZDc9aehN+Qi0Nc4v0NL7QsCyRoDTsVOInEzVeZp9/0WBMopc6tPMG0Wk5HRPHO6keNFPhmlUZ2PzgfKbExxbo="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Panama" hymn=""
+		avatar_name="Skins\Avatars\Flags\PAN.dds" avatar_checksum="0x10569476BE5DA300E91F459B2F37B80DCACD63CB93A495E798E4C2AAD06B2838" avatar_crypted_checksum="C2hiCvcAJvXFUvgE7Kj37qfDClJ2JvvkvFDRqK+7kUJw7PhVKgTz9CQn9hlhLNJN/EmuAmKPYjWKkMCQ19mPLJUGfFy4NXw0JrJh9m53UzSnQN0trX9ZoRwrL6l7kyJcVS767ivvzGZ0mHLA7xcWYYHCiuSzC9maX/iFM1xF9Z0="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\PAN.zip" checksum="0xEEA17DAFC0E21DD806F8DD1DE0ACB06DF698FCE10091892111E7AF9F423B843A" crypted_checksum="W5m+O6x70vso21uHpt6SdyNxto8nTfngIInyhxIiEw4qcyi3AOw9E8MHIpkxcylTvE4ykAAZC3pvfrFoMNH0pHrx8WygZpIlHXm7AfyHNEzEmduxRNpbPwvebz6uxm0cW16yVqPS8eU/8I/xtzDwvT6wdPya/339sOIVhj+ds2M="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Peru" hymn=""
+		avatar_name="Skins\Avatars\Flags\PER.dds" avatar_checksum="0x8AD7173B84DF0E90D949D7686F4045196D638E423136A84E71F7A7E79882760A" avatar_crypted_checksum="Wx7nc0apF4d7xdHsshcb+vTVOwiFtUM+pEe+rSQ0yqsSvqjdg3Q0dMlfIlPpu1t1/Bv9pIvCX0VWmvXhTDF9i2IdRUk3z3rS9qtlUwJBf9thk0RflJ6RYydp8lhQVmLcwBURAnNh8ONu7WXxTgDzGqZEVCNfchcUSc9pILsEImY="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\PER.zip" checksum="0xFBEA1B118D485DAC0A67FECE0ABD60CD3E5A333D09DB4D38915C78427BC0D505" crypted_checksum="nTX8wekGW1X8vq2mmq5+axtAieX7hXuczN7WMd6j99YhrSwjgWVRBrByEeeD00iG0d8oKydelyTKMH1imRnYtEU8LDuxF0mYxnueozCGdSuLtz9B3TMD0+PCyQiQdzG62XsKm6FMZ1GrHl8ekWS+lh/c6QBC13Dn2GBJE5Am6+U="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Philippines" hymn=""
+		avatar_name="Skins\Avatars\Flags\PHI.dds" avatar_checksum="0x87CC3F41D86E4ADD781B3D88A88E3AC832333CB1B06A11F927538ECF99BA0D44" avatar_crypted_checksum="KVEww2dwa4JLPAz23mfasSsakE5B6mOMENVg+EWFFf3CDlBs5SdAphsMm9pCaTiYenbDB2B9CyAfnHiBUtPTDjlCFta4zAALsH2sr/Y4wOiBvA71kGel5F8PKafQccxGeGMrYNWo6TSNIYqQBx+ZfKLbiXOmusXSVuPfb9v2bqM="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\PHI.zip" checksum="0x66BBF11319D748341B2D7CA8B05BFCB6F08E59A3D2334551929F98743AB3EFB9" crypted_checksum="GEFWQnqnmrpyisCpdPqiwpOMqSvP6j56vqiLjtRnFhtRgGqKAP2Gvtvx0N4tkDjJpf12eA+rZUQQIabYMeBMzR6FnZd3j8y6yAU55euO24RBcBbBzkOah0E7K3KmMUuxdLl19aXfxcLCmM4TTD3bF01GDz5vPkOWooC2HBD6elU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Poland" hymn=""
+		avatar_name="Skins\Avatars\Flags\POL.dds" avatar_checksum="0x3B065773F0A4E879B1FE68B7E3774FD4F97892285FECC5F1AA9A25DF3E795AA0" avatar_crypted_checksum="AtiK4yrM2u3fkozHN7K2Lv9fxotYkPuyonRNy23Pm/ocXQoe8fZL8zIc29WLc9A9Uj7yWi9Wa9Tw6fTHEMKtzCJsx25pRaFmr0GyLo3s6KyXZIkD0pHh4Cqmfz+y7YiLij+R7W5Ej4Gj7XrK7HbBO2CkQ/weV241HaUdjWN6T1E="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\POL.zip" checksum="0x49EC9E6677FF0F07804F2E36EE38E4DAE7F31098E30C316DC206F2697158EEF8" crypted_checksum="GK+m9JnrXZzX0aYpKgCgbt/8yXvWqvVPPpty3iFmKqti7ixWLQp5pJ+7BMUZfy5h3uMGvDjAHRT0dIUXgYKMDqoWww8YchQ+SU+XwmulbydesyD8wZ5wNpWJO9YwIt+aRHZsYIzECQVHqLb0R8/hOlCiOIqKRFEo5Xrgf/tGCQc="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Portugal" hymn=""
+		avatar_name="Skins\Avatars\Flags\POR.dds" avatar_checksum="0xE05C2FE4F09E7D1DFE80DBD352730C0B1A64A07C55DBDB96815DAE4BA43546C9" avatar_crypted_checksum="1trBTcFQbeuUhqHWckLV8qIMY5IvKOIVsIl5zhK6E8fndpxxWd4bYiS4OSzWG3CEHn6buxxxdK+dKCp7+8mU784iPZHGmbhxc3cNqBqymNytaQiNqx9+JXFatcyZtLsPhpVafIN72COkzBK1MFaEQerY8JwGUjN6PfQJkh3zT2U="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\POR.zip" checksum="0x1979F0C11D12D30F671726E97B75A668D3831E388C043D787875B8D59301BAC0" crypted_checksum="xa66i70/rfeqdpnJjWj8wG5dErPcAaY4L1Aq/1DyGn9dZmh3iVEMC8Hmj2W/4heb0kqQaeSg6BCGnjmZE7tSbZQsEUWfHtBwSTwoy4bddIp/B4VeeiVTaz/7Xoa5sYFtRVOHpDAxce3LdnmqY22oe7NgRRyDxBKIF4EyMPgGOmA="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Qatar" hymn=""
+		avatar_name="Skins\Avatars\Flags\QAT.dds" avatar_checksum="0xA0CD7F2C6057AB4632D812526C4BDEFA3121C175B00E8D914FAAD3ECCC4255E3" avatar_crypted_checksum="M6MokplJvze+RmYqKYaGn85kU2l/OmeBwQ3OEAr+iy0MxWI12ngwGMpK8n39VYsuGg/6S7diWIVrtc2d8w13sVjBdkCh5koVMp8R/fJBbd+CWBOoT5wLXbujFT4UVCPloxK8g1ZWRuiXt/fIAjkzU2hQOR07StxoLDJQdqgNe6k="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\QAT.zip" checksum="0x71BD76B8BB3719F74B74DF7FE6995F53E1A2C0BB8D791BE0583C86313F9B0F4E" crypted_checksum="wndSQ00QHctX5jsn6XycnDoiH9x4+UdRccqTer7PDAjEJqrRTs1zpSr20AIsgjmQC2Y5hkkTqnDnvkf1NzPuH8l3To7EQ13Z7aSJaFX1Jupp3BNPqlMLc8baP203vgMp18NoRQkV7GNtowzbgMfUV3qck2jv+Sizs1/UGq0TqdU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Romania" hymn=""
+		avatar_name="Skins\Avatars\Flags\ROM.dds" avatar_checksum="0x821A22378453667D35A14A2EC3AEBDF309796301E373B4E0DD2F82DA75998E11" avatar_crypted_checksum="XbEZecw1Fdn3Yvi7WsqgSAc96Hi34anFBsaQ+BIJTkRZHkIfSRLdiw0mtNjF10aSMl5h2K84FEfSSXzM2wnJZ5l8Ox/7tvN73jHehibHE3LmGwzEHVxBD0vJ5LHASxOKWvUdWWYanbhVKgijxv+c3CULT6EUE9dSH/lcPiYnVI4="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\Other.zip" checksum="0xB8745AA330AF0C454FDC51E296B5B83AF0EB9AB96B3785988ACC3F2812274409" crypted_checksum="r3Y4CeSEOcWelUA9WR/1Yywmrttq1xj+M3n/XPwSVfHqmM9EKOdI4iH3/jeQ7OsWtRPYvuR6UEoQNlS1px6+98u3QDwJSLUgg1lWbFNUy+s9vScoM5HHOZi1QXqYahdZl775k7QCO5RCweVYOW/TzpD/G3wlG3nZa2GQzmux4qU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|South Africa" hymn=""
+		avatar_name="Skins\Avatars\Flags\RSA.dds" avatar_checksum="0xF52492D7D5ED1C54117151048DBDE02C1A101BEC6116EA12C2455CF162010E19" avatar_crypted_checksum="zU4BVYiz5QKkumRC84fcz3x0kB/cOaWkoAskAz0fIr1E8OiJ9K8hm5b2UyHkstDpnaX7N4syHZnXrTD1Rs5zRYSyJqK96pq5Nl6FfF37rsCmyHQ12MrSIFAmi7qqDlT5U5khxk6b/QG/wlPQHOq5QmEWxW63TJXcaH1QBUOsjcQ="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\RSA.zip" checksum="0x17F0323F75CA46D7BA7FC3A2AA6D2C9B9F2628C9B212AD78C463032F99FBF077" crypted_checksum="N3ywcBNXBLjLvjFiX77qlMbQqBYyrw44d2Iv8LKg0kpafpsA3bfRlRS0FHngALGCAWDsSl13wCuwVkaxolCmrCM3XSWN5VPMTjnr11b037/TbUlznZxrCf/ogFUnJ5sfHUCl0OwofbGDvVOhZIXIeG8QWQcqupdbkzhZiH5g/qs="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Russia" hymn=""
+		avatar_name="Skins\Avatars\Flags\RUS.dds" avatar_checksum="0x797BDE27DAF61DBA16146F3E882CA80F83F5852EDDF1DC3D7D04DA8A5CDB6B7C" avatar_crypted_checksum="C30HazZGqzQOZ/TqthbrRWVjIzJLzkhs2A7RnVLywIpFXR6KENMjrWuG4Asp/2C0xyMsYjoWzOPsaj2W/uZpV+QTHfmkefArpwOIt35sByhyO48qsBGJ7rWR4JgbGlEQ2mQKVu/SBaYSua99G0HBYmITD0ZhLwfbSt4aZ1FcimE="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\RUS.zip" checksum="0xD4269ED179115A12672C773FF8DB5D4090D4C3490F223847A8BA6474E25E4A1A" crypted_checksum="oE7/6Eb36bVDY0WaW7peKIUN/wda+7a5D76/hcRpJC1A9VBiPkjO2Cmf/iJX4BMrck/I3bVCGZ9sPQyxqYqWtoPfawFqFqIwBBQ4u/F9n8QO/EcN0ubIUl9xMU+X4CeL75209RIjS8Qjsnlx0mizN7zOF70hqnyf/a/GV80Chh0="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|Senegal" hymn=""
+		avatar_name="Skins\Avatars\Flags\SEN.dds" avatar_checksum="0xC21DA595445FB6FEC625C384BA58ECE31F0614AFB098995ED6E15EB47E86C300" avatar_crypted_checksum="BAhPqymL2svOG9xcjJeNeAULXCKbx0byqEjlhKvJDvOb2mbf88O4Ip9z93B/azF+aZeeZXpA9L0YFO86mhad99EUsmbca9TUyZrLeINEmal4NitE9HA+0/ILlQJ/WF32VpD6cdlgFz+ttvxwQvLlDeds+O0XThcelrEhQchVEvI="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\SEN.zip" checksum="0xCC5EC9608F622E33456A8516640D53117A9F6655AA38BCC44BD2B54D7113EB35" crypted_checksum="DLqRguSMfgT1bAJFsZNG7ykGsqGif9N4t+hav+TsUxLdI541K22+6eyPQJ9KT+tqZloUfTmr8G2vMCp8R0nDCfS8Qvsy4w8yADFa6MSx7LITBFRmW6tv3wND7lXNHtbYccF/jNUBpT8XquKtSgrgoi1hD70d5GavWUg+pD5Lq6g="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Singapore" hymn=""
+		avatar_name="Skins\Avatars\Flags\SIN.dds" avatar_checksum="0xCAC3C388AEABB5FC8EBB0963D3D4EBC7D6E89199906082BD1F4B5F20A058C40C" avatar_crypted_checksum="rrTlaI0uEFueBoLj09XbUWvzoogfDqEWOVOa/CYzJoQN4SxfmAdRVTQ5reNmUhnuEkAHGhTX6cBNW13MAmz15mD2wTEYjBMJszHV+Se6mdZbgu9Himqx5vmz9Gx5oaq45zADkNhiuwhJplL4A87lF3VzloYhNBF498fvLVTI0yY="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\Other.zip" checksum="0xB8745AA330AF0C454FDC51E296B5B83AF0EB9AB96B3785988ACC3F2812274409" crypted_checksum="r3Y4CeSEOcWelUA9WR/1Yywmrttq1xj+M3n/XPwSVfHqmM9EKOdI4iH3/jeQ7OsWtRPYvuR6UEoQNlS1px6+98u3QDwJSLUgg1lWbFNUy+s9vScoM5HHOZi1QXqYahdZl775k7QCO5RCweVYOW/TzpD/G3wlG3nZa2GQzmux4qU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Slovenia" hymn=""
+		avatar_name="Skins\Avatars\Flags\SLO.dds" avatar_checksum="0x3D6E06D1AD7F59EAC641ADAA8E372897F4F156585669C15DD7DCCD0F5614C6D5" avatar_crypted_checksum="FZIJMVerAu1sGs2n1rasVbvA+1nZe94NXDIzgHf2MC1ea/hcfScemYPytJbmG72T8ts3trG8yNP3aUThk2je40GxcnrX85gPmm0bmy9PWmo7gQEgBEpzGiYarrsZadSTPI1zpOfq3Q9jGzP7cLxNX6CNEl0eXHTm1cbj+WljPzs="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\SLO.zip" checksum="0xD374340021B35E6AC398B0D79FD26ACDC6417C04F764890AF86EA41C269F512A" crypted_checksum="N8XnGnrm6SXUWrtsLHePhMOTB0V+vqrODah90ejnawx20xDlEDkDXfjHzucHmKZgfVVfeNQqpw92orfeAhTLwxWhwcPRCifYAcbh7wU9NwvthtoatIdyz40Pd6bxG169ibFbpQG7hq2DWTmg1TKNTlXcmHk+JuxYN+zpJs7LLgg="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Serbia" hymn=""
+		avatar_name="Skins\Avatars\Flags\SRB.dds" avatar_checksum="0x1CC4E2BF1A90E651CA497382C70C39A565F98910B5E6BBBB4BF4AC7BCDAFFE75" avatar_crypted_checksum="3TJHd2XmGSbTc2//tjmJ9hNhY2GU9m4+TPbbTL8VCGzSSsjzi6uxybIZe3CiTXH8b0mMRgxdoyNWbI3SwfflBqixTIi/lp6F7Tp5IJTMN3RCw4LgKGaam+g2112n+AZMwExx2bo4fR8z3Ha4z5TVGNK5mMBvnZ5AF61lJoojFIY="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\SRB.zip" checksum="0x20B94080549EE3DEE0448300E52E3189B47983A5F7C095DDA86BE95CC189B307" crypted_checksum="Ho9c+MnH1T7mBod1qnWAnS1D32m9lvNcQY+LNTjxZkVWuSNFGSDiTune+b1blTl6QJL9jVW2CpEz+HZcwseDBSW7wctEBXf81nQsqiOZzr+JExooRuKQ5Y/8qInsmfeuIxOSnqKGx3L3OsflxOiCJKLfTlTJ0XciW85oa/jhqsU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Switzerland" hymn=""
+		avatar_name="Skins\Avatars\Flags\SUI.dds" avatar_checksum="0xEA472395ED632F873A31C8E63D8134375DFC970A91576545EC3063DBD4E938F8" avatar_crypted_checksum="Ady9X9cYpbMOMx+7B6IDrJv7yQMu3XP6mb89bIRKo7wMHYprHMmjDJYH1yHOehmvMriLQM0pYEe8TSQHhHx6aITb78/kyMisZ15gUA7k8NNMbCA/cAbU8eYyA7FQ5Og6kjbBZzviTDbnRESyXEqvHUL3BNnpaf3A/HlhjqMC8lg="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\SUI.zip" checksum="0xF98AF4D3317C024E7421EBBBDDC350AB0935EF31C219DA87C33A737E8F93BD1F" crypted_checksum="gwW41+RucT78YPtUe+2z/oqVEoIiXJWNuSddys+n7eG3ZRMWQsuNgxnYEcp0os2/Z0SXjt13sE46MNYCBrgthXVbM5b1z5iApAEkNH9mvXMMjrNWtRmMjsHvQRi7nuPsc2mmd5dwFHz9t2ewhuzCflXENhvrdPXuQN4YOTSTQSU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Slovakia" hymn=""
+		avatar_name="Skins\Avatars\Flags\SVK.dds" avatar_checksum="0xD2B1A3FDC6A6EA0E587450299B82E1A4A3249088BA7CB9CE29F9B1C87F7EC211" avatar_crypted_checksum="BYBea+eAfuObKinGLEGy/DRoinU1AQQr5nOiCBa+Y1PJdXTWHFapCgN9C6Fb9ItNXS9p2Nimljma9v4lfDOvt6SbVCPvVIS0PFhq0NsfnmJkiFfg7/n8fhORTOxQ+XbunQOvokeRv/UUkz6b4kYCn+zMgPuYIrC9bkxilrv39Qk="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\SVK.zip" checksum="0x59437D3324E4F4DE1BF3221893856D28813891C524535684F6F9EA20160AC0B2" crypted_checksum="rIF8NLhk07HcW5ua0qkqtqBESADdWCswS1Py0RUQfyTHwXCxDrTRSvBs/eV4ilnWiFyodtGxCv23BD1ydnnyx9FPYOX3BMI8Ewm6YA67hp3HVBMCqkAGSQfgTTX2/DFFoqkZZaqkfhHWziBSBBNW7+eVTQEEaY6LYUk7mMdGWJY="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Sweden" hymn=""
+		avatar_name="Skins\Avatars\Flags\SWE.dds" avatar_checksum="0x34C9D819EA23DDA33FB515B8644C3FB7902C64A220FDB156EF5749FC34BE5319" avatar_crypted_checksum="stSs+7GmgN1l0rwjBED3/RyLbe6TtV9QJ8TznYRcjXiK3wDgTcKXltPYY5J1rXkuUg6fK60U8/N3ERLAna+8xxNu8iIr5wBVSOK4V3VEFrFwDKV7Jnaaqo7Cb8XTLP8+QumzVwmWkMrT3LxOHjdl/rzOY1SBwLz22EM4bXtTsmU="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\SWE.zip" checksum="0x8824C816F870F1770587A0CE6A088087AEF105E579E2E85223C0CD367C7531A8" crypted_checksum="GkIHfMJRnnKNZMZ8V3/O8eYqSjK3zF5HzLcKKlMW7r6lWCV6uLZeTw7qwH/R+lcotpCcd/W+5yIJFU4AWvP0QjoGERz01cHVjirsmePPKP4Y0Qe4PbFAMORjmJI8zw6alV1E7p3qYOaqC+RA+ZO6s/nud56XxU7XrYJ4B4Jd+BU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Syria" hymn=""
+		avatar_name="Skins\Avatars\Flags\SYR.dds" avatar_checksum="0x3F93AFA4EC448E07A4FA9EB562F60AE1D0DE2AEBAAF89C9970560046BBD76610" avatar_crypted_checksum="0OYuS+TUfWV6xqvdYz9NhWqDIs3fihkaErX2Sppr6pX7Fj+MXJEBwjlE/sYtst1mj0aafmzE+fgSRGpDGxV/hI80EaRqiaHmrfNO4/Vy0oLWOfLTdp7uZ3zr2Jjmox4QBy7MogmlANzmeri+xGAFFkSNl2fhRdxuvKK+Wp+XsBI="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\SYR.zip" checksum="0xC82CB548120B25E2FE6FB7FB5F0C62BBE4BD36CF24209F3F86E9B75E75254CEA" crypted_checksum="qM2ds/Uf4h9tWHUuElVE93sAirna01t3b/K8uYI/sq0drlKrk0LidjdrU9XyjxRrZ7auSyF4d4vVCLOxaBYGKFquMtj7a1IrQaLFs8pTMfGdyg3WbCJ1ZC6YvIDNL2qXi7BeNE4lHf1mRJ+0z3xOBCnMz2bxpSrSgWKMC/n92Fs="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Thailand" hymn=""
+		avatar_name="Skins\Avatars\Flags\THA.dds" avatar_checksum="0xC73FD0AEA78001943DF40A420814202F826ED7C68D138D641ABE38121C96833C" avatar_crypted_checksum="cGy6qgmoGjznBWUMZpLFNgsyPfJWP2RSdW2bPZdFQYsbLq54jfKT8auchbpooX4GS0YL6aA3VHCAgYwWYvIvyoUu42q5r81iXLGsK+0CfQyqVTWSx3fHUt7bdZDu/ROm8I6gLWQl6pRbWdL8Eeu2jCKhDaYehFtF0ohDXWayNYM="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\THA.zip" checksum="0xE5AE2DBF45A795E9FBA884F73B24C53B0BB52EC20C1E4B1BBC5F19328DADB39D" crypted_checksum="XLEJNp3SS/V9y1tAoiXSBp0nIEik4htKqEgUYAFcKWds8vDnJfGglbkHyL3ART2sOf/O9D/8bUptBrM1exunoww3aIXLuzTYSJZAJShAkkELDZnxQgav84aivkptncM6L988yx8eP2/xjor5g4svie8TRyWVuUTld/vDhrtWks8="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Africa|Tunisia" hymn=""
+		avatar_name="Skins\Avatars\Flags\TUN.dds" avatar_checksum="0xF58B3BB4E2B4812C882F32DE40E76DA8225ED0E33330348D1FD0B40A42C59662" avatar_crypted_checksum="rXP8nxqOnU03ng+Xv+osYFuR3tYuE4ch5RYQbmDHNrWSsTzPCUe4pHfKKa1PuSQ0Ja7bmYdPNtsRnKo10HWJnUQOavYpMoGpT0AFWH02yTsA3HhNKD+OfxTR9FT4xpOo7xvE9xJSah9t26upwG8VX0f0QAihE7Lr8E8S6rTU1zw="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\TUN.zip" checksum="0x36B1BA34FC16D3C26D1969929636EA3ABD67709F617BFA9790D45330589F3076" crypted_checksum="dnJPAi0wEVvVwXri3mZRBqW54OKGeWRJeo3j/kYOzdaeA0CsNHu+cfgHz+9KlApBOXP2A01nSSyJcLUCN/y7GqNztmgzIkn9gFIxYVx0DkWYVV4oAVeW2e77ndZKyMHBWoHjSRuHjywP1J0BxAjKpI13d7YV9uhWYuTOvS7u4OM="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|Turkey" hymn=""
+		avatar_name="Skins\Avatars\Flags\TUR.dds" avatar_checksum="0xCEB2D9C52A2A03525FF341B1E53EDF10E7A9AEA04DD423005A431B3381A457D2" avatar_crypted_checksum="AEKdIMIFIXjpfE4q+wcRKS/tQdNbqoct0MuA29vMC1iMkegr7L/rcqVlCuLfgeZekEw4ZVrRbpf2yA3Kyqq74CQz80aIVqcTg/9+g7W0HxeawdtCrC4A0R7WXu/6w/7OcBoNpwZ8UeFqV2aFR/GCB2MDXoH0Z9JxobGQNkUb6hw="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\TUR.zip" checksum="0x2189B25C1E752E9171062729DB9D978EC27B1F392427FB92BFDB21EA93E73452" crypted_checksum="yjO7tTXRVnd7rnuXUS2NBJmKmPAlvFI2lkEp+cVqL52uHQKZMXfeniqJAhgL3Mnwj5Ug6EXvoOT/74RbC1OuEvgfZ+oTGQPUu2z7QfRxjgPN2fpdi59OwD76ZUH/00rr5ozr4YDUyxdwE/tDJjaZnm3kQbCUuqnJD0DV2ccer+g="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Middle East|United Arab Emirates" hymn=""
+		avatar_name="Skins\Avatars\Flags\UAE.dds" avatar_checksum="0xAA7814B2B031FA4F8A09BFD6F056FFB1529CBD59E22CE14020463E732411DFD7" avatar_crypted_checksum="ePkRKoTiKYv6Bcuqnq+4EMZnMgWt0pNiL/zvtH5/ca4KvjiAJzU5D2WSFXQQKVkl4rW+DWqVKiEstDX2jgeUYq/ugTHIqGFCtVsTFgjEyNG9iUXTlpnspvGIKLeyTsJoUu4qqNUlGfPv8SDCT8mcqS1jlN+yTDj0P4dG26XMs2k="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\Other.zip" checksum="0xB8745AA330AF0C454FDC51E296B5B83AF0EB9AB96B3785988ACC3F2812274409" crypted_checksum="r3Y4CeSEOcWelUA9WR/1Yywmrttq1xj+M3n/XPwSVfHqmM9EKOdI4iH3/jeQ7OsWtRPYvuR6UEoQNlS1px6+98u3QDwJSLUgg1lWbFNUy+s9vScoM5HHOZi1QXqYahdZl775k7QCO5RCweVYOW/TzpD/G3wlG3nZa2GQzmux4qU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Europe|Ukraine" hymn=""
+		avatar_name="Skins\Avatars\Flags\UKR.dds" avatar_checksum="0x193F55C7BBA28922E8B9AA6A2585B2ADCD44C1FBCF3308882E0D09873DF17AE0" avatar_crypted_checksum="uB5nxW3ciyKjy82WOMq8Q7DQrjFSuyOBN96yi/xn7vZ0CIGwYzWING5a23McqJHC6+z67TQjsqgI1PWDYhqQEYSna8OpayCWqSxPVjbsFdxbdBTAgea5wVZqtgGHo8XWFNl65xs0YDQfVaIjlinAcM8yj5p38uEYqK3pCYuGTnw="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\UKR.zip" checksum="0x024AF25D7ADC5B533101923CE15E9FF7C7605321573346194022F6E76C169384" crypted_checksum="nktToIJhC1Rrizue70urqsN9W5RsmXNhZrQiGf+HwBtXdlFOMDpAv4Ua3cmCOgHfACIxWInF9b1TkUuMz6mz7lcKTLqEWgMRxNR6+kmvtuYZYVOwTOD0OYf7rbY3Jp07r7G51YZF/5jmF6D3Aw3grmLnQegHAu5JXvGtb/aW94s="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Uruguay" hymn=""
+		avatar_name="Skins\Avatars\Flags\URU.dds" avatar_checksum="0x5C8221C2BAC308B24D6A077524E4F1928D53FC0494B011A6784C1C7ED9AB16E3" avatar_crypted_checksum="cWVSOPPxghxS5jAFjwiJQ0pem7Kpj83UKhvnxDBea9sJSnr31ij8UAI5Qb6gI3eqtW6ROOL52xQc0t4dt5Wd68jD44/R2quqNflISpx6ARaizMDV4tI5x8PiBnfCbqV5iGhefqZEo21i/j73o6WlRlCmgYtRt9b8GuNUOWZDeNQ="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\URU.zip" checksum="0xB7A143150A34E2EE596701C2E21C4F4084AF3C7730413D2B82FF8E888AD5909A" crypted_checksum="q/InpFYrQpIm+mmci7yWn1o9Vo1aC6Py1+rpeKWyVW4pga3FNNGfAaRB3/wzkoNOu1W3Bo7aCrBgISGWN38mMySgI8LFE6jprokwLy5A91f16sNPkIF4nQ20ZykxQYhvyA4hFAXsTr+24OkEFLPN3oEXRPQ3PGhxZT707aU5Knw="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|North America|United States of America" hymn=""
+		avatar_name="Skins\Avatars\Flags\USA.dds" avatar_checksum="0x45677F3E2551E31C19A0672EFBB30F74F5665232A82CFB83D5745192844F2E9C" avatar_crypted_checksum="QgeF7yaj65l5GADegR1GjVV4L7HG/VzC159dW5YjRytws84aZVRe0hkdaDsPZ4lf5FZ0yVeC/G3EHoosuZfO2NX53rDoI5jM0d3QjzZ4ITjtTZ4l2+oViX76S8msu2m7i+KCXai+v4rE0KQn9rWXfZXiX6dr1aoyFJuUP52Xm90="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\USA.zip" checksum="0xD5C19AF1BFE6655DF32F7283796C8FB9608FD4AADB17A7ED3E02FD4E10BE1523" crypted_checksum="FH4+LYEB/SqorAPrjowNEN1qZgtfTu57jRr2/dOYTY90nbKDcPqFI9W5j+kOg8I5m4PO/7RQr/mnqVHQC3TZj5rcAUOihk3y5KRJ3aUM892tdkN5UNGRJ0J3mxXUo7XEPYgG2xnDTIW8kzQ5J6Nnrwu6xF7mPAP8owcEzlkpZzM="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Uzbekistan" hymn=""
+		avatar_name="Skins\Avatars\Flags\UZB.dds" avatar_checksum="0xAD19D20C918D560801D21DA706AAE6DDFF4F7500E6CB5C11BEBC8976DF9B57A1" avatar_crypted_checksum="RV+Naf0wPP9KCvvZZ4HrAyQ4OSxlUdNK4Sk3QXnan6QY2Ncdc2tUV9ON6KsFTXR/Lkuqwr5/4+HBxo+KdTTCzigLRwGBVSsxKgybLnhT50M1XgcLW7bEebKVwYEuBHvYH0wWEr3AwA9NJLsgV+YmtvGqMJg6xFDPqTpjbv8zCkE="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\UZB.zip" checksum="0xD58C6069B7650747B1200CFA6E5E1162F1DA2054F95C1F9386E7BA24636DF940" crypted_checksum="QAzOuXqDrAB3Av6bD3OI91NYLH83jzVQBwtosV7XRMqq3fFSv67fmWv6AP7JDlpbnWRjzbij/UlEoemUY5IfKTETXTfJJAsJY5m3Xg+KJFAs5z8WLWDpToRm6PPZQAjnT+oqvi0CruLMOyCgwkEmUu7xW03b8F4ck2vuPjPjkvE="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|South America|Venezuela" hymn=""
+		avatar_name="Skins\Avatars\Flags\VEN.dds" avatar_checksum="0x81ED8ED7433E525F8436D65FEC0D7E4D9EA09A8128C963908F602E165BBAAC24" avatar_crypted_checksum="YPLjZhVuNweelPryTgy+sKwJ/RBJug37xVoikpC2dH/DLwcKkeK/cua80fvZSS9dozJ/WPby/Ka8r3yYPWOgsccbGe4U7I1pzUMgqcZWOHd3sidy9ey/ZzRQDHgH5cdq9tcifGzjozQe0qhU7qB400hWUt3AuJbUSYC+IygVTdU="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\VEN.zip" checksum="0xEA5D9DAFFAB844E21A00F2C90C97BDCE738813931500219BABF72C37AE8C7ABB" crypted_checksum="1r94Fgfy/Q1D//Rn25M0S8OeJT6EWgN0yNw9LzfwsHDlFiALhhP/ysk4Z5rcBvnFw/Qfbl3NUQvIeMvW//OjXdWmBuRtkTOkAxVjYKZJ+32JlbtINFWl+IlymZU9LAyp0Jok5fm8zv2RMnvj3goUh+kNnnshMjY3fjftX91IiiU="
+			crypt_key_id="1" />
+	</nation>
+	<nation path="World|Asia|Vietnam" hymn=""
+		avatar_name="Skins\Avatars\Flags\VIE.dds" avatar_checksum="0x34902292D05894A284108FFB590EED42E9D89DB90B3175B692A8FA602895206C" avatar_crypted_checksum="EjZFZ9/54QDHe7Mc9N9VdmsGElU2n41+J/SOchXFMNgoFepIkk+3M+LS2ks1swT8iWpJJhB41lRoQW3shX3sH2dijzei42zzI/ZVws03yIQWQZu3BXRXrF+IUk/QhmB7K32Z0QvPEeDZ1UGeozvGICiGGALvfmIgs+pNoBWrBJI="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\VIE.zip" checksum="0x95870CEBE21557A4D288A72383B964B55BCFFF32DD83085201ABFD4B15ED3CE4" crypted_checksum="B4o6mliLvpAy2N0j15aoRI8RliK4cz+ERi6B0LTEWHMCeCijF8TTnsfIbfzteHBZ3js3Ugj1GJHwkgzTjBvNCy2qNPhyO3iGNKq+DANrzL17wZfUUNr7Gcd+eRsM1xfrJknox2jRZhGZuXytccbc8sdHTakpHkOdr3ORO7GROPs="
+			crypt_key_id="1" />
+	</nation>
+
+<!-- default: -->
+	<nation path="" hymn=""
+		avatar_name="Skins\Avatars\Flags\other.dds" avatar_checksum="0x7CA0EB9C644B57FD3F04E0A34C7F811DE490002640018C7719F1CDDBADFD8E3A" avatar_crypted_checksum="evoJIPaes3tIQvoU9L5/cLb4CRZ04TdjPt53CCUGm6tf7Y9baLE69+DoR5fkMZ+6EhnWg7EEkC6RWKoNaXM4qHVrj268BX3mPX9KGjKVA1gF6bXR45H4Td7Z3ZXHRBr/kjR6F6thk13mE+scG572EUJ/VvkshNws5xUCWJRe8O8="
+		crypt_key_id="1" >
+		<skin id="StadiumCar" collection="Vehicles" author="Nadeo"
+			name="Skins\Models\StadiumCar\Other.zip" checksum="0xB8745AA330AF0C454FDC51E296B5B83AF0EB9AB96B3785988ACC3F2812274409" crypted_checksum="r3Y4CeSEOcWelUA9WR/1Yywmrttq1xj+M3n/XPwSVfHqmM9EKOdI4iH3/jeQ7OsWtRPYvuR6UEoQNlS1px6+98u3QDwJSLUgg1lWbFNUy+s9vScoM5HHOZi1QXqYahdZl775k7QCO5RCweVYOW/TzpD/G3wlG3nZa2GQzmux4qU="
+			crypt_key_id="1" />
+	</nation>
+</nationslist>
