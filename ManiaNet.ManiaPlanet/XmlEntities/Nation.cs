@@ -21,14 +21,14 @@ namespace ManiaNet.ManiaPlanet.XmlEntities
         public string Hymn { get; private set; }
 
         /// <summary>
+        /// Gets the name of the nation.
+        /// </summary>
+        public string Name { get; private set; }
+
+        /// <summary>
         /// Gets the zone path. World|&lt;Continent&gt;|&lt;Nation&gt;
         /// </summary>
         public string Path { get; private set; }
-
-        /// <summary>
-        /// Gets the name of the country
-        /// </summary>
-        public string Name { get; private set; }
 
         /// <summary>
         /// Gets the informations for the nation's skin.
@@ -57,7 +57,8 @@ namespace ManiaNet.ManiaPlanet.XmlEntities
             Path = path.Value;
             Hymn = hymn.Value;
             AvatarName = avatarName.Value;
-            string[] zoneparts = Path.Split("|".ToCharArray());
+
+            string[] zoneparts = Path.Split('|');
             Name = (zoneparts.Length >= 3) ? zoneparts[2] : "Other";
 
             XElement skin = xElement.Elements().First();
