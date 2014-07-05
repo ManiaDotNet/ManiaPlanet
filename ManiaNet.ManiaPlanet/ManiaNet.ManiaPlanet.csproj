@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="XmlEntities\Avatar.cs" />
     <Compile Include="XmlEntities\Nation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Nations.cs" />
