@@ -29,7 +29,6 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// </summary>
         /// <param name="code">The short code for the Manialink.</param>
         /// <returns>The information about the Manialink. Null when the information couldn't be found.</returns>
-        [CanBeNull]
         public async Task<ManialinkInfo> GetInfoFor([NotNull] string code)
         {
             if (string.IsNullOrWhiteSpace(code))
@@ -37,7 +36,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
 
             var response = await execute(RequestType.GET, "manialinks/" + code + "/index.json");
 
-            return jsonSerializer.Deserialize<ManialinkInfo>(new JsonTextReader(new StringReader(response)));
+            return response == null ? null : jsonSerializer.Deserialize<ManialinkInfo>(new JsonTextReader(new StringReader(response)));
         }
 
         /// <summary>

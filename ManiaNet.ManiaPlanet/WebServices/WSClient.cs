@@ -44,7 +44,6 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="resourcePath">The path that is appended to the BaseUrl. Includes the query string.</param>
         /// <param name="requestBody">Optional request body that is send with POST and PUT requests.</param>
         /// <returns>The content returned by the web request. Null on failure.</returns>
-        [CanBeNull]
         protected async Task<string> execute(RequestType requestType, [NotNull] string resourcePath, [NotNull] string requestBody = "")
         {
             HttpResponseMessage response;
