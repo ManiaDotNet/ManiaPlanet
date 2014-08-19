@@ -16,12 +16,13 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <summary>
         /// The base url of for the WebServices. http://ws.maniaplanet.com/
         /// </summary>
+        [UsedImplicitly]
         public const string BaseUrl = "http://ws.maniaplanet.com/";
 
         private readonly HttpClient httpClient;
 
         /// <summary>
-        /// Creates a new instance of the <see cref="ManiaNet.ManiaPlanet.WebServices.WSClient"/> class with the given credentials.
+        /// Creates a new instance of the <see cref="WSClient"/> class with the given credentials.
         /// </summary>
         /// <param name="username">The WebServices username.</param>
         /// <param name="password">The WebServices password.</param>
@@ -49,19 +50,19 @@ namespace ManiaNet.ManiaPlanet.WebServices
             HttpResponseMessage response;
             switch (requestType)
             {
-                case RequestType.GET:
+                case RequestType.Get:
                     response = await httpClient.GetAsync(resourcePath);
                     return response.IsSuccessStatusCode ? await response.Content.ReadAsStringAsync() : null;
 
-                case RequestType.POST:
+                case RequestType.Post:
                     response = await httpClient.PostAsync(resourcePath, new StringContent(requestBody));
                     return response.IsSuccessStatusCode ? await response.Content.ReadAsStringAsync() : null;
 
-                case RequestType.PUT:
+                case RequestType.Put:
                     response = await httpClient.PutAsync(resourcePath, new StringContent(requestBody));
                     return response.IsSuccessStatusCode ? await response.Content.ReadAsStringAsync() : null;
 
-                case RequestType.DELETE:
+                case RequestType.Delete:
                     response = await httpClient.DeleteAsync(resourcePath);
                     return response.IsSuccessStatusCode ? string.Empty : null;
 
@@ -75,10 +76,25 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// </summary>
         protected enum RequestType
         {
-            GET,
-            POST,
-            PUT,
-            DELETE,
+            /// <summary>
+            /// GET Request.
+            /// </summary>
+            Get,
+
+            /// <summary>
+            /// POST Request.
+            /// </summary>
+            Post,
+
+            /// <summary>
+            /// PUT Request.
+            /// </summary>
+            Put,
+
+            /// <summary>
+            /// DELETE Request.
+            /// </summary>
+            Delete,
         }
     }
 }
