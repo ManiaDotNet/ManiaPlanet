@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ManiaNet.ManiaPlanet.Annotations;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -24,8 +25,14 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// </summary>
         /// <param name="username">The WebServices username.</param>
         /// <param name="password">The WebServices password.</param>
-        protected WSClient(string username, string password)
+        protected WSClient([NotNull] string username, [NotNull] string password)
         {
+            if (string.IsNullOrWhiteSpace(username))
+                throw new ArgumentNullException("username", "Username has to have a value.");
+
+            if (string.IsNullOrWhiteSpace(password))
+                throw new ArgumentNullException("password", "Password has to have a value.");
+
             var httpHandler = new HttpClientHandler { Credentials = new NetworkCredential(username, password) };
             httpClient = new HttpClient(httpHandler) { BaseAddress = new Uri(BaseUrl) };
         }
@@ -37,7 +44,8 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="resourcePath">The path that is appended to the BaseUrl. Includes the query string.</param>
         /// <param name="requestBody">Optional request body that is send with POST and PUT requests.</param>
         /// <returns>The content returned by the web request. Null on failure.</returns>
-        protected async Task<string> execute(RequestType requestType, string resourcePath, string requestBody = "")
+        [CanBeNull]
+        protected async Task<string> execute(RequestType requestType, [NotNull] string resourcePath, [NotNull] string requestBody = "")
         {
             HttpResponseMessage response;
             switch (requestType)

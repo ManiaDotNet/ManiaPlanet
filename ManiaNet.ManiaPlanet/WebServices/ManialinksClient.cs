@@ -8,16 +8,19 @@ using System.Threading.Tasks;
 
 namespace ManiaNet.ManiaPlanet.WebServices
 {
+    /// <summary>
+    /// Contains methods for accessing the Manialink infos.
+    /// </summary>
     public sealed class ManialinksClient : WSClient
     {
-        private static JsonSerializer manialinkInfoSerializer = new JsonSerializer();
+        private static readonly JsonSerializer jsonSerializer = new JsonSerializer();
 
         /// <summary>
         /// Creates a new instance of the <see cref="ManiaNet.ManiaPlanet.WebServices.ManialinksClient"/> class with the given credentials.
         /// </summary>
         /// <param name="username">The WebServices username.</param>
         /// <param name="password">The WebServices password.</param>
-        public ManialinksClient(string username, string password)
+        public ManialinksClient([NotNull] string username, [NotNull] string password)
             : base(username, password)
         { }
 
@@ -26,14 +29,15 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// </summary>
         /// <param name="code">The short code for the Manialink.</param>
         /// <returns>The information about the Manialink. Null when the information couldn't be found.</returns>
-        public async Task<ManialinkInfo> GetInfoFor(string code)
+        [CanBeNull]
+        public async Task<ManialinkInfo> GetInfoFor([NotNull] string code)
         {
             if (string.IsNullOrWhiteSpace(code))
                 return null;
 
             var response = await execute(RequestType.GET, "manialinks/" + code + "/index.json");
 
-            return manialinkInfoSerializer.Deserialize<ManialinkInfo>(new JsonTextReader(new StringReader(response)));
+            return jsonSerializer.Deserialize<ManialinkInfo>(new JsonTextReader(new StringReader(response)));
         }
 
         /// <summary>
@@ -46,7 +50,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// <summary>
             /// Gets the short code for the Manialink. May be null if the data wasn't complete.
             /// </summary>
-            [JsonProperty("code"), UsedImplicitly]
+            [CanBeNull, JsonProperty("code"), UsedImplicitly]
             public string Code
             {
                 get;
@@ -57,7 +61,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// <summary>
             /// Gets the login of the Owner of the Manialink. May be null if the data wasn't complete.
             /// </summary>
-            [JsonProperty("login"), UsedImplicitly]
+            [CanBeNull, JsonProperty("login"), UsedImplicitly]
             public string OwnerLogin
             {
                 get;
@@ -79,7 +83,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// <summary>
             /// Gets the Url that the Manialink points to. May be null if the data wasn't complete.
             /// </summary>
-            [JsonProperty("url"), UsedImplicitly]
+            [CanBeNull, JsonProperty("url"), UsedImplicitly]
             public string Url
             {
                 get;
