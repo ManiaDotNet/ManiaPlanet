@@ -1,4 +1,5 @@
 ﻿using ManiaNet.ManiaPlanet.Annotations;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         [UsedImplicitly]
         public const string BaseUrl = "http://ws.maniaplanet.com/";
 
+        protected static readonly JsonSerializer jsonSerializer = new JsonSerializer();
         private readonly HttpClient httpClient;
 
         /// <summary>

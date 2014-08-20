@@ -14,8 +14,6 @@ namespace ManiaNet.ManiaPlanet.WebServices
     [UsedImplicitly]
     public sealed class PlayersClient : WSClient
     {
-        private static readonly JsonSerializer jsonSerializer = new JsonSerializer();
-
         /// <summary>
         /// Creates a new instance of the <see cref="PlayersClient"/> class with the given credentials.
         /// </summary>
