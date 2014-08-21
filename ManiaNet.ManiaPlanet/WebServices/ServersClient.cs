@@ -83,6 +83,23 @@ namespace ManiaNet.ManiaPlanet.WebServices
         }
 
         /// <summary>
+        /// Gets the specified number of <see cref="ServerInfo"/>s, starting at the given index (0-based). Null when the information couldn't be found.
+        /// </summary>
+        /// <param name="offset">The starting index (0-based).</param>
+        /// <param name="length">The maximum number of Servers to return.</param>
+        /// <returns>The ServerInfos in the given range. Null when the information couldn't be found.</returns>
+        [UsedImplicitly]
+        public async Task<ServerInfo[]> GetServerInfosAsync(uint offset = 0, uint length = 10)
+        {
+            if (length == 0)
+                return new ServerInfo[0];
+
+            var response = await execute(RequestType.Get, "servers/index.json?offset=" + offset + "&length=" + length);
+
+            return response == null ? null : jsonSerializer.Deserialize<ServerInfo[]>(new JsonTextReader(new StringReader(response)));
+        }
+
+        /// <summary>
         /// Stores information about a Server.
         /// </summary>
         [JsonObject, UsedImplicitly]
