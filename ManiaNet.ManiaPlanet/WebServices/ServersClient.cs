@@ -23,6 +23,60 @@ namespace ManiaNet.ManiaPlanet.WebServices
         { }
 
         /// <summary>
+        /// Iterates through all <see cref="ServerInfo"/>s, starting at 0. Empty when the information couldn't be found.
+        /// <para/>
+        /// Only use this if you really know what you're doing. It will possibly iterate through *ALL* ManiaPlanet servers.
+        /// </summary>
+        /// <param name="stepSize">The size of each badge of ServerInfos that is downloaded.</param>
+        /// <param name="retries">The maximum number of retries when the information couldn't be found.</param>
+        /// <returns>All ServerInfos. Null when the information couldn't be found.</returns>
+        [UsedImplicitly]
+        public IEnumerable<ServerInfo> GetAllServerInfos(uint stepSize = 30, uint retries = 3)
+        {
+            if (stepSize == 0)
+                yield break;
+
+            var baseQuery = "/servers/index.json?length=" + stepSize + "&offset=";
+
+            var shouldQuery = true;
+            uint offset = 0;
+            uint retried = 0;
+            var pendingServerInfos = new Stack<ServerInfo>();
+            var runningQuery = execute(RequestType.Get, baseQuery + offset);
+
+            while (shouldQuery || pendingServerInfos.Count > 0)
+            {
+                if (shouldQuery && pendingServerInfos.Count == 0)
+                {
+                    var response = runningQuery.Result;
+                    var result = response == null ? null : jsonSerializer.Deserialize<ServerInfo[]>(new JsonTextReader(new StringReader(response)));
+
+                    if (result != null)
+                    {
+                        if (result.Length < stepSize)
+                            shouldQuery = false;
+
+                        pendingServerInfos = new Stack<ServerInfo>(result);
+                        offset += stepSize;
+                    }
+                    else
+                        retried++;
+                }
+
+                if (shouldQuery && pendingServerInfos.Count < stepSize)
+                {
+                    if (retried < retries)
+                        runningQuery = execute(RequestType.Get, baseQuery + offset);
+                    else
+                        shouldQuery = false;
+                }
+
+                if (pendingServerInfos.Count > 0)
+                    yield return pendingServerInfos.Pop();
+            }
+        }
+
+        /// <summary>
         /// Gets the number of players that favorited the Server given by the login. Null when the information couldn't be found.
         /// </summary>
         /// <param name="login">The login of the Server.</param>
@@ -123,6 +177,9 @@ namespace ManiaNet.ManiaPlanet.WebServices
 
             [CanBeNull, JsonProperty("mapsList")]
             private string[] maps;
+
+            [JsonProperty("scriptTeam"), UsedImplicitly]
+            private byte? scriptUsesTeamMode;
 
             /// <summary>
             /// Gets the description text of the Server. May be null if the data wasn't complete.
@@ -331,12 +388,10 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// <summary>
             /// Gets whether the Script used by the Server is using team mode or not. May be null if the data wasn't complete.
             /// </summary>
-            [JsonProperty("scriptTeam"), UsedImplicitly]
+            [JsonIgnore, UsedImplicitly]
             public bool? ScriptUsesTeamMode
             {
-                get;
-                [UsedImplicitly]
-                private set;
+                get { return !scriptUsesTeamMode.HasValue ? (bool?)null : Convert.ToBoolean(scriptUsesTeamMode.Value); }
             }
 
             /// <summary>
