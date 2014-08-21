@@ -52,8 +52,9 @@
     <Compile Include="WebServices\ManiaFlashClient.cs" />
     <Compile Include="WebServices\ManialinksClient.cs" />
     <Compile Include="WebServices\PlayersClient.cs" />
-    <Compile Include="WebServices\RankingsClient\MultiplayerPlayer.cs" />
+    <Compile Include="WebServices\RankingsClient\PlayerRankings.cs" />
     <Compile Include="WebServices\RankingsClient\RankingsClient.cs" />
+    <Compile Include="WebServices\ServersClient.cs" />
     <Compile Include="WebServices\WSClient.cs" />
     <Compile Include="XmlEntities\Nation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
