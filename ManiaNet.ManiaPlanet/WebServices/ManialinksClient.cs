@@ -69,10 +69,10 @@ namespace ManiaNet.ManiaPlanet.WebServices
             }
 
             /// <summary>
-            /// Gets the cost in Planets to visit the Manialink. May be -1 if the data wasn't complete.
+            /// Gets the cost in Planets to visit the Manialink. May be null if the data wasn't complete.
             /// </summary>
             [JsonProperty("planetCost"), UsedImplicitly]
-            public int PlanetCost
+            public uint? PlanetCost
             {
                 get;
                 [UsedImplicitly]
@@ -91,9 +91,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             }
 
             private ManialinkInfo()
-            {
-                PlanetCost = -1;
-            }
+            { }
         }
     }
 }

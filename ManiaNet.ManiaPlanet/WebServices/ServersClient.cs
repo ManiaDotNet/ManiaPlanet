@@ -45,8 +45,23 @@ namespace ManiaNet.ManiaPlanet.WebServices
         // ReSharper disable once ClassCannotBeInstantiated
         public sealed class ServerInfo
         {
+            [JsonProperty("isDedicated"), UsedImplicitly]
+            private byte? isDedicated;
+
+            [JsonProperty("isLadder"), UsedImplicitly]
+            private byte? isLadder;
+
+            [JsonProperty("isLobby"), UsedImplicitly]
+            private byte? isLobby;
+
+            [JsonProperty("isOnline"), UsedImplicitly]
+            private byte? isOnline;
+
+            [JsonProperty("isPrivate"), UsedImplicitly]
+            private byte? isPrivate;
+
             [CanBeNull, JsonProperty("mapsList")]
-            private readonly string[] maps;
+            private string[] maps;
 
             /// <summary>
             /// Gets the description text of the Server. May be null if the data wasn't complete.
@@ -63,7 +78,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// Gets the Id of the Server. May be null if the data wasn't complete.
             /// </summary>
             [JsonProperty("id"), UsedImplicitly]
-            public int Id
+            public uint? Id
             {
                 get;
                 [UsedImplicitly]
@@ -73,56 +88,46 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// <summary>
             /// Gets whether the Server is a dedicated server. May be null if the data wasn't complete.
             /// </summary>
-            [JsonProperty("isDedicated"), UsedImplicitly]
+            [JsonIgnore, UsedImplicitly]
             public bool? IsDedicated
             {
-                get;
-                [UsedImplicitly]
-                private set;
+                get { return !isDedicated.HasValue ? (bool?)null : Convert.ToBoolean(isDedicated.Value); }
             }
 
             /// <summary>
             /// Gets whether the Server is a ladder Server or not. May be null if the data wasn't complete.
             /// </summary>
-            [JsonProperty("isLadder"), UsedImplicitly]
+            [JsonIgnore, UsedImplicitly]
             public bool? IsLadder
             {
-                get;
-                [UsedImplicitly]
-                private set;
+                get { return !isLadder.HasValue ? (bool?)null : Convert.ToBoolean(isLadder.Value); }
             }
 
             /// <summary>
             /// Gets whether the Server is a lobby Server or not. May be null if the data wasn't complete.
             /// </summary>
-            [JsonProperty("isLobby"), UsedImplicitly]
+            [JsonIgnore, UsedImplicitly]
             public bool? IsLobby
             {
-                get;
-                [UsedImplicitly]
-                private set;
+                get { return !isLobby.HasValue ? (bool?)null : Convert.ToBoolean(isLobby.Value); }
             }
 
             /// <summary>
             /// Gets whether the Server is currently online. May be null if the data wasn't complete.
             /// </summary>
-            [JsonProperty("isOnline"), UsedImplicitly]
+            [JsonIgnore, UsedImplicitly]
             public bool? IsOnline
             {
-                get;
-                [UsedImplicitly]
-                private set;
+                get { return !isOnline.HasValue ? (bool?)null : Convert.ToBoolean(isOnline.Value); }
             }
 
             /// <summary>
             /// Gets whether the Server is private or not. May be null if the data wasn't complete.
             /// </summary>
-            [JsonProperty("isPrivate"), UsedImplicitly]
+            [JsonIgnore, UsedImplicitly]
             public bool? IsPrivate
             {
-                get;
-                [UsedImplicitly]
-                private set;
+                get { return !isPrivate.HasValue ? (bool?)null : Convert.ToBoolean(isPrivate.Value); }
             }
 
             /// <summary>
@@ -211,7 +216,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// Gets the maximum number of players allowed on the Server.  May be null if the data wasn't complete.
             /// </summary>
             [JsonProperty("maxPlayerCount"), UsedImplicitly]
-            public int? MaxPlayerCount
+            public uint? MaxPlayerCount
             {
                 get;
                 [UsedImplicitly]
@@ -244,7 +249,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// Gets the current number of players on the Server. May be null if the data wasn't complete.
             /// </summary>
             [JsonProperty("playerCount"), UsedImplicitly]
-            public int? PlayerCount
+            public uint? PlayerCount
             {
                 get;
                 [UsedImplicitly]
@@ -328,13 +333,16 @@ namespace ManiaNet.ManiaPlanet.WebServices
             public sealed class TitleInfo
             {
                 [CanBeNull, JsonProperty("dependencies")]
-                private readonly string[] dependencies;
+                private string[] dependencies;
+
+                [JsonProperty("isCustom"), UsedImplicitly]
+                private byte? isCustom;
 
                 /// <summary>
                 /// Gets the cost of the Title. May be null if the data wasn't complete.
                 /// </summary>
                 [CanBeNull, JsonProperty("cost")]
-                public string Cost
+                public uint? Cost
                 {
                     get;
                     [UsedImplicitly]
@@ -361,7 +369,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
                 /// Gets the Id of the Title. May be null if the data wasn't complete.
                 /// </summary>
                 [JsonProperty("id"), UsedImplicitly]
-                public int? Id
+                public uint? Id
                 {
                     get;
                     [UsedImplicitly]
@@ -382,12 +390,10 @@ namespace ManiaNet.ManiaPlanet.WebServices
                 /// <summary>
                 /// Gets whether the Title is a custom (i.e. user-made) Title. May be null if the data wasn't complete.
                 /// </summary>
-                [JsonProperty("isCustom"), UsedImplicitly]
+                [JsonIgnore, UsedImplicitly]
                 public bool? IsCustom
                 {
-                    get;
-                    [UsedImplicitly]
-                    private set;
+                    get { return !isCustom.HasValue ? (bool?)null : Convert.ToBoolean(isCustom.Value); }
                 }
 
                 /// <summary>
@@ -460,7 +466,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
                 /// Gets the Id of the Zone. May be null if the data wasn't complete.
                 /// </summary>
                 [JsonProperty("id"), UsedImplicitly]
-                public int? Id
+                public uint? Id
                 {
                     get;
                     [UsedImplicitly]

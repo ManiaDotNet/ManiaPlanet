@@ -39,10 +39,10 @@ namespace ManiaNet.ManiaPlanet.WebServices
             private Ranking[] rankings;
 
             /// <summary>
-            /// Gets the number of points that the Player has in the Title. May be -1f if the data wasn't complete.
+            /// Gets the number of points that the Player has in the Title. May be null if the data wasn't complete.
             /// </summary>
             [JsonProperty("points"), UsedImplicitly]
-            public float Points
+            public float? Points
             {
                 get;
                 [UsedImplicitly]
@@ -101,10 +101,10 @@ namespace ManiaNet.ManiaPlanet.WebServices
             public sealed class Ranking
             {
                 /// <summary>
-                /// Gets the actual Rank number. May be -1 if the data wasn't complete.
+                /// Gets the actual Rank number. May be null if the data wasn't complete.
                 /// </summary>
                 [JsonProperty("rank"), UsedImplicitly]
-                public int Rank
+                public uint? Rank
                 {
                     get;
                     [UsedImplicitly]
@@ -112,10 +112,10 @@ namespace ManiaNet.ManiaPlanet.WebServices
                 }
 
                 /// <summary>
-                /// Gets the Zone-Id of the Ranking. May be -1 if the data wasn't complete.
+                /// Gets the Zone-Id of the Ranking. May be null if the data wasn't complete.
                 /// </summary>
                 [JsonProperty("idZone"), UsedImplicitly]
-                public int ZoneId
+                public uint? ZoneId
                 {
                     get;
                     [UsedImplicitly]
@@ -134,10 +134,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
                 }
 
                 private Ranking()
-                {
-                    ZoneId = -1;
-                    Rank = -1;
-                }
+                { }
             }
         }
     }

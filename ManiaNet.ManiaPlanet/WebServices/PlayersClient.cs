@@ -64,10 +64,10 @@ namespace ManiaNet.ManiaPlanet.WebServices
         public sealed class PlayerInfo
         {
             /// <summary>
-            /// Gets the Id of the Player. May be -1 if the data wasn't complete.
+            /// Gets the Id of the Player. May be null if the data wasn't complete.
             /// </summary>
             [JsonProperty("id"), UsedImplicitly]
-            public int Id
+            public uint? Id
             {
                 get;
                 [UsedImplicitly]
@@ -86,10 +86,10 @@ namespace ManiaNet.ManiaPlanet.WebServices
             }
 
             /// <summary>
-            /// Gets the Zone-Id of the Player. May be -1 if the data wasn't complete.
+            /// Gets the Zone-Id of the Player. May be null if the data wasn't complete.
             /// </summary>
             [JsonProperty("idZone"), UsedImplicitly]
-            public int ZoneId
+            public uint? ZoneId
             {
                 get;
                 [UsedImplicitly]
@@ -108,10 +108,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             }
 
             private PlayerInfo()
-            {
-                Id = -1;
-                ZoneId = -1;
-            }
+            { }
         }
     }
 }
