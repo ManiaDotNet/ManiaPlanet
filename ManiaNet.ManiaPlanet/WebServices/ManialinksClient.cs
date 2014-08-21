@@ -61,7 +61,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// Gets the login of the Owner of the Manialink. May be null if the data wasn't complete.
             /// </summary>
             [CanBeNull, JsonProperty("login")]
-            public string OwnerLogin
+            public string Owner
             {
                 get;
                 [UsedImplicitly]

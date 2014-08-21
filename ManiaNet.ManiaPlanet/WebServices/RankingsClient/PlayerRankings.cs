@@ -52,7 +52,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             /// <summary>
             /// Gets the rankings of the Player in the different Zones along their ZonePath. May be empty if the data wasn't complete.
             /// </summary>
-            [NotNull, JsonIgnore]
+            [NotNull, JsonIgnore, UsedImplicitly]
             public IEnumerable<Ranking> Rankings
             {
                 get
@@ -89,9 +89,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             }
 
             private PlayerRanking()
-            {
-                Points = -1f;
-            }
+            { }
 
             /// <summary>
             /// Stores information about a Player's Mutiplayer Ranking.

@@ -56,6 +56,7 @@
     <Compile Include="WebServices\RankingsClient\PlayerRankings.cs" />
     <Compile Include="WebServices\RankingsClient\RankingsClient.cs" />
     <Compile Include="WebServices\ServersClient.cs" />
+    <Compile Include="WebServices\TeamsClient.cs" />
     <Compile Include="WebServices\TitleInfo.cs" />
     <Compile Include="WebServices\WSClient.cs" />
     <Compile Include="WebServices\ZoneInfo.cs" />
