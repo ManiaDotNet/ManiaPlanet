@@ -23,6 +23,34 @@ namespace ManiaNet.ManiaPlanet.WebServices
         { }
 
         /// <summary>
+        /// Gets the number of players that favorited the Server given by the login. Null when the information couldn't be found.
+        /// </summary>
+        /// <param name="login">The login of the Server.</param>
+        /// <returns>The number of players that favorited the server. Null when the information couldn't be found.</returns>
+        [UsedImplicitly]
+        public async Task<uint?> GetFavoritedCountAsyncFor(string login)
+        {
+            if (string.IsNullOrWhiteSpace(login))
+                return null;
+
+            var response = await execute(RequestType.Get, "servers/" + login + "/favorited/index.txt");
+
+            uint n;
+            return !uint.TryParse(response, out n) ? (uint?)null : n;
+        }
+
+        /// <summary>
+        /// Gets the number of players that favourited the Server given by the login. Null when the information couldn't be found.
+        /// </summary>
+        /// <param name="login">The login of the Server.</param>
+        /// <returns>The number of players that favourited the server. Null when the information couldn't be found.</returns>
+        [UsedImplicitly]
+        public async Task<uint?> GetFavouritedCountAsyncFor(string login)
+        {
+            return await GetFavoritedCountAsyncFor(login);
+        }
+
+        /// <summary>
         /// Gets the <see cref="PlayerInfo"/>s for the players connected to the Server given by the login. Null when the information couldn't be found.
         /// </summary>
         /// <param name="login">The login of the Server.</param>
