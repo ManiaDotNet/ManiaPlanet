@@ -23,10 +23,26 @@ namespace ManiaNet.ManiaPlanet.WebServices
         { }
 
         /// <summary>
-        /// Gets the <see cref="ServerInfo"/> for the dedicated server given by the login. Null when the information couldn't be found.
+        /// Gets the <see cref="PlayerInfo"/>s for the players connected to the Server given by the login. Null when the information couldn't be found.
         /// </summary>
-        /// <param name="login">The login of the dedicated server.</param>
-        /// <returns>The Server information of the dedicated server. Null when the information couldn't be found.</returns>
+        /// <param name="login">The login of the Server.</param>
+        /// <returns>The PlayerInfos for the players connected to the server. Null when the information couldn't be found.</returns>
+        [UsedImplicitly]
+        public async Task<PlayerInfo[]> GetOnlinePlayersAsyncFor(string login)
+        {
+            if (string.IsNullOrWhiteSpace(login))
+                return null;
+
+            var response = await execute(RequestType.Get, "servers/" + login + "/players/index.json");
+
+            return response == null ? null : jsonSerializer.Deserialize<PlayerInfo[]>(new JsonTextReader(new StringReader(response)));
+        }
+
+        /// <summary>
+        /// Gets the <see cref="ServerInfo"/> for the Server given by the login. Null when the information couldn't be found.
+        /// </summary>
+        /// <param name="login">The login of the Server.</param>
+        /// <returns>The Server information of the server. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
         public async Task<ServerInfo> GetServerInfoAsyncFor(string login)
         {
@@ -441,10 +457,10 @@ namespace ManiaNet.ManiaPlanet.WebServices
                 }
 
                 /// <summary>
-                /// Gets the Url to a JPEG icon for the Zone. May be null if the data wasn't complete, or there's none.
+                /// Gets the Url to a JPG icon for the Zone. May be null if the data wasn't complete, or there's none.
                 /// </summary>
-                [CanBeNull, JsonProperty("iconJPEGURL")]
-                public string IconJpegUrl
+                [CanBeNull, JsonProperty("iconJPGURL")]
+                public string IconJpgUrl
                 {
                     get;
                     [UsedImplicitly]

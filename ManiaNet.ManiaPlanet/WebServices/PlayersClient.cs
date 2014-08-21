@@ -40,12 +40,12 @@ namespace ManiaNet.ManiaPlanet.WebServices
         }
 
         /// <summary>
-        /// Gets the number of Maniastars for the Player given by the login. -1 when the information couldn't be found.
+        /// Gets the number of Maniastars for the Player given by the login. Null when the information couldn't be found.
         /// </summary>
         /// <param name="login">The login of the Player.</param>
-        /// <returns>The number of Maniastars the Player has. -1 when the information couldn't be found.</returns>
+        /// <returns>The number of Maniastars the Player has. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<int> GetManiastarsAsyncFor([NotNull] string login)
+        public async Task<int?> GetManiastarsAsyncFor([NotNull] string login)
         {
             if (string.IsNullOrWhiteSpace(login))
                 return -1;
@@ -53,7 +53,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
             var response = await execute(RequestType.Get, "players/" + login + "/index.txt");
 
             int n;
-            return int.TryParse(response, out n) ? n : -1;
+            return int.TryParse(response, out n) ? n : (int?)null;
         }
     }
 }
