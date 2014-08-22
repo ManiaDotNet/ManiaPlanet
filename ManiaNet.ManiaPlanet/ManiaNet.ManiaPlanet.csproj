@@ -59,6 +59,7 @@
     <Compile Include="WebServices\ServersClient.cs" />
     <Compile Include="WebServices\TeamsClient.cs" />
     <Compile Include="WebServices\TitleInfo.cs" />
+    <Compile Include="WebServices\TitlesClient.cs" />
     <Compile Include="WebServices\WSClient.cs" />
     <Compile Include="WebServices\ZoneInfo.cs" />
     <Compile Include="XmlEntities\Nation.cs" />

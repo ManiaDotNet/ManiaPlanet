@@ -20,6 +20,17 @@ namespace ManiaNet.ManiaPlanet.WebServices
         private byte? isCustom;
 
         /// <summary>
+        /// Gets the login of the Author of the Title. May be null if the data wasn't complete, or if it's a standard title like TMCanyon.
+        /// </summary>
+        [CanBeNull, JsonProperty("author")]
+        public string Author
+        {
+            get;
+            [UsedImplicitly]
+            private set;
+        }
+
+        /// <summary>
         /// Gets the cost of the Title. May be null if the data wasn't complete.
         /// </summary>
         [CanBeNull, JsonProperty("cost")]
@@ -82,6 +93,17 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// </summary>
         [CanBeNull, JsonProperty("name")]
         public string Name
+        {
+            get;
+            [UsedImplicitly]
+            private set;
+        }
+
+        /// <summary>
+        /// Gets the Unique Id of the Title. May be null if the data wasn't complete.
+        /// </summary>
+        [CanBeNull, JsonProperty("uid")]
+        public string UId
         {
             get;
             [UsedImplicitly]
