@@ -29,7 +29,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="login">The login of the Player.</param>
         /// <returns>The information about the Player. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<PlayerInfo> GetInfoAsyncFor([NotNull] string login)
+        public async Task<PlayerInfo> GetInfoAsync([NotNull] string login)
         {
             if (string.IsNullOrWhiteSpace(login))
                 return null;
@@ -45,7 +45,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="login">The login of the Player.</param>
         /// <returns>The number of Maniastars the Player has. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<uint?> GetManiastarsAsyncFor([NotNull] string login)
+        public async Task<uint?> GetManiastarsAsync([NotNull] string login)
         {
             if (string.IsNullOrWhiteSpace(login))
                 return null;

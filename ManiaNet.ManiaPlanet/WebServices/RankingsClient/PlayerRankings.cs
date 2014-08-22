@@ -18,7 +18,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="title">The Title that the ranking is wanted for. If left empty, rankings for all titles will be returned.</param>
         /// <returns>The Ranking information of the Player for the Title. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<PlayerRanking> GetMultiplayerRankingAsyncFor(string login, string title = "")
+        public async Task<PlayerRanking> GetMultiplayerRankingAsync(string login, string title = "")
         {
             if (string.IsNullOrWhiteSpace(title) || string.IsNullOrWhiteSpace(login))
                 return null;

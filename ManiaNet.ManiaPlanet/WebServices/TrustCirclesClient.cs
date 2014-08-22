@@ -45,7 +45,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="circle">The name of the Trust Circle.</param>
         /// <returns>The Entries on the Blacklist of the Trust Circle.</returns>
         [UsedImplicitly]
-        public async Task<ListEntry[]> GetBlacklistAsyncFor([NotNull] string circle)
+        public async Task<ListEntry[]> GetBlacklistAsync([NotNull] string circle)
         {
             if (string.IsNullOrWhiteSpace(circle))
                 return null;
@@ -62,7 +62,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="login">The login of the Player.</param>
         /// <returns>The Karma of the Player in the Trust Circle.</returns>
         [UsedImplicitly]
-        public async Task<Karma> GetKarmaAsyncFor([NotNull] string circle, [NotNull] string login)
+        public async Task<Karma> GetKarmaAsync([NotNull] string circle, [NotNull] string login)
         {
             if (string.IsNullOrWhiteSpace(circle) || string.IsNullOrWhiteSpace(login))
                 return null;
@@ -102,7 +102,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="circle">The name of the Trust Circle.</param>
         /// <returns>The Entries on the Whitelist of the Trust Circle.</returns>
         [UsedImplicitly]
-        public async Task<ListEntry[]> GetWhitelistAsyncFor([NotNull] string circle)
+        public async Task<ListEntry[]> GetWhitelistAsync([NotNull] string circle)
         {
             if (string.IsNullOrWhiteSpace(circle))
                 return null;

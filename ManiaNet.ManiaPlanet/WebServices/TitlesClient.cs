@@ -28,7 +28,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="id">The IdString of the Title.</param>
         /// <returns>The Title Information. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<TitleInfo> GetInfoAsyncFor(string id)
+        public async Task<TitleInfo> GetInfoAsync(string id)
         {
             if (string.IsNullOrWhiteSpace(id))
                 return null;

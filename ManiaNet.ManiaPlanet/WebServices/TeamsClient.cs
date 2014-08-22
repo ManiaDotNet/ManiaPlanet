@@ -29,7 +29,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="id">The Id of the Team.</param>
         /// <returns>The Admins of the Team. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<TeamInfo[]> GetAdminsAsyncFor(uint id)
+        public async Task<TeamInfo[]> GetAdminsAsync(uint id)
         {
             if (id < 1)
                 return null;
@@ -45,7 +45,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="id">The Id of the Team.</param>
         /// <returns>The Contracts of the Team. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<ContractInfo[]> GetContractsAsyncFor(uint id)
+        public async Task<ContractInfo[]> GetContractsAsync(uint id)
         {
             if (id < 1)
                 return null;
@@ -61,7 +61,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="id">The Id of the Team.</param>
         /// <returns>The information about the Team. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<TeamInfo> GetInfoAsyncFor(uint id)
+        public async Task<TeamInfo> GetInfoAsync(uint id)
         {
             if (id < 1)
                 return null;
@@ -77,7 +77,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="id">The Id of the Team.</param>
         /// <returns>The Rankings of the Team. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<TeamRanking[]> GetRankingsAsyncFor(uint id)
+        public async Task<TeamRanking[]> GetRankingsAsync(uint id)
         {
             if (id < 1)
                 return null;

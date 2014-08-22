@@ -29,7 +29,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="code">The short code for the Manialink.</param>
         /// <returns>The information about the Manialink. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<ManialinkInfo> GetInfoAsyncFor([NotNull] string code)
+        public async Task<ManialinkInfo> GetInfoAsync([NotNull] string code)
         {
             if (string.IsNullOrWhiteSpace(code))
                 return null;

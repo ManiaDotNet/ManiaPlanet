@@ -91,7 +91,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="order">The order to sort the results in.</param>
         /// <returns>The children ZoneInfos in the given range. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<ZoneInfo[]> GetChildrenInfosByIdAsyncFor(uint id, uint offset = 0, uint length = 10, Sort sort = Sort.Id, Order order = Order.Ascending)
+        public async Task<ZoneInfo[]> GetChildrenInfosByIdAsync(uint id, uint offset = 0, uint length = 10, Sort sort = Sort.Id, Order order = Order.Ascending)
         {
             if (id == 0 || (sort != Sort.Id && sort != Sort.Path) || (order != Order.Ascending && order != Order.Descending))
                 return null;
@@ -117,7 +117,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="order">The order to sort the results in.</param>
         /// <returns>The children ZoneInfos in the given range. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<ZoneInfo[]> GetChildrenInfosByPathAsyncFor([NotNull] string path, uint offset = 0, uint length = 10, Sort sort = Sort.Id, Order order = Order.Ascending)
+        public async Task<ZoneInfo[]> GetChildrenInfosByPathAsync([NotNull] string path, uint offset = 0, uint length = 10, Sort sort = Sort.Id, Order order = Order.Ascending)
         {
             if (string.IsNullOrWhiteSpace(path) || (sort != Sort.Id && sort != Sort.Path) || (order != Order.Ascending && order != Order.Descending))
                 return null;
@@ -137,7 +137,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="path">The Path of the Zone.</param>
         /// <returns>The Id of the Zone. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<uint?> GetIdAsyncFor(string path)
+        public async Task<uint?> GetIdAsync(string path)
         {
             if (string.IsNullOrWhiteSpace(path))
                 return null;
@@ -154,7 +154,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="id">The Id of the Zone.</param>
         /// <returns>The Zone-Info.</returns>
         [UsedImplicitly]
-        public async Task<ZoneInfo> GetInfoByIdAsyncFor(uint id)
+        public async Task<ZoneInfo> GetInfoByIdAsync(uint id)
         {
             if (id == 0)
                 return null;
@@ -170,7 +170,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="path">The Path of the Zone. Zones are separated by pipe characters ('|').</param>
         /// <returns>The Zone-Info.</returns>
         [UsedImplicitly]
-        public async Task<ZoneInfo> GetInfoByPathAsyncFor([NotNull] string path)
+        public async Task<ZoneInfo> GetInfoByPathAsync([NotNull] string path)
         {
             if (string.IsNullOrWhiteSpace(path))
                 return null;
@@ -209,7 +209,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="id">The Id of the Zone.</param>
         /// <returns>The population of the Zone. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<uint?> GetPopulationByIdAsyncFor(uint id)
+        public async Task<uint?> GetPopulationByIdAsync(uint id)
         {
             if (id == 0)
                 return null;
@@ -226,7 +226,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="path">The Path of the Zone.</param>
         /// <returns>The population of the Zone. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<uint?> GetPopulationByPathAsyncFor([NotNull] string path)
+        public async Task<uint?> GetPopulationByPathAsync([NotNull] string path)
         {
             if (string.IsNullOrWhiteSpace(path))
                 return null;

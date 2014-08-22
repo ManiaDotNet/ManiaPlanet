@@ -20,7 +20,11 @@ namespace ManiaNet.ManiaPlanet.WebServices
         [UsedImplicitly]
         public const string BaseUrl = "http://ws.maniaplanet.com/";
 
+        /// <summary>
+        /// JSON Serializer for deserializing the responses.
+        /// </summary>
         protected static readonly JsonSerializer jsonSerializer = new JsonSerializer();
+
         private readonly HttpClient httpClient;
 
         /// <summary>
