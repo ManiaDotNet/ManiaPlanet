@@ -82,7 +82,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="login">The login of the Server.</param>
         /// <returns>The number of players that favorited the server. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<uint?> GetFavoritedCountAsyncFor(string login)
+        public async Task<uint?> GetFavoritedCountAsyncFor([NotNull] string login)
         {
             if (string.IsNullOrWhiteSpace(login))
                 return null;
@@ -99,7 +99,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="login">The login of the Server.</param>
         /// <returns>The number of players that favourited the server. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<uint?> GetFavouritedCountAsyncFor(string login)
+        public async Task<uint?> GetFavouritedCountAsyncFor([NotNull] string login)
         {
             return await GetFavoritedCountAsyncFor(login);
         }
@@ -110,7 +110,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="login">The login of the Server.</param>
         /// <returns>The PlayerInfos for the players connected to the server. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<PlayerInfo[]> GetOnlinePlayersAsyncFor(string login)
+        public async Task<PlayerInfo[]> GetOnlinePlayersAsyncFor([NotNull] string login)
         {
             if (string.IsNullOrWhiteSpace(login))
                 return null;
@@ -126,7 +126,7 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <param name="login">The login of the Server.</param>
         /// <returns>The Server information of the server. Null when the information couldn't be found.</returns>
         [UsedImplicitly]
-        public async Task<ServerInfo> GetServerInfoAsyncFor(string login)
+        public async Task<ServerInfo> GetServerInfoAsyncFor([NotNull] string login)
         {
             if (string.IsNullOrWhiteSpace(login))
                 return null;

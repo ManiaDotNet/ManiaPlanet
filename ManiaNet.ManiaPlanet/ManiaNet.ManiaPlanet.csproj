@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="WebServices\DateInfo.cs" />
     <Compile Include="WebServices\ManiaFlashClient.cs" />
     <Compile Include="WebServices\ManialinksClient.cs" />
     <Compile Include="WebServices\PlayerInfo.cs" />
