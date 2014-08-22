@@ -25,11 +25,11 @@ namespace ManiaNet.ManiaPlanet.WebServices
         /// <summary>
         /// Iterates through all <see cref="ServerInfo"/>s, starting at 0. Empty when the information couldn't be found.
         /// <para/>
-        /// Only use this if you really know what you're doing. It will possibly iterate through *ALL* ManiaPlanet servers.
+        /// Only use this if you really know what you're doing. It will possibly iterate through *ALL* ManiaPlanet Servers.
         /// </summary>
         /// <param name="stepSize">The size of each badge of ServerInfos that is downloaded.</param>
         /// <param name="retries">The maximum number of retries when the information couldn't be found.</param>
-        /// <returns>All ServerInfos. Null when the information couldn't be found.</returns>
+        /// <returns>All ServerInfos. Empty when the information couldn't be found.</returns>
         [UsedImplicitly]
         public IEnumerable<ServerInfo> GetAllServerInfos(uint stepSize = 50, uint retries = 3)
         {

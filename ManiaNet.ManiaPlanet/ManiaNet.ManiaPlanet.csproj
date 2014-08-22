@@ -63,6 +63,7 @@
     <Compile Include="WebServices\TrustCirclesClient.cs" />
     <Compile Include="WebServices\WSClient.cs" />
     <Compile Include="WebServices\ZoneInfo.cs" />
+    <Compile Include="WebServices\ZonesClient.cs" />
     <Compile Include="XmlEntities\Nation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Nations.cs" />
