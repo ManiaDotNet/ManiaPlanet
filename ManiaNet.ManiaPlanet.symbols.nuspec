@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ManiaNet.ManiaPlanet</id>
+        <version>0.3</version>
+        <title>ManiaNet ManiaPlanet</title>
+        <authors>Banane9</authors>
+        <owners>Banane9</owners>
+        <licenseUrl>https://github.com/ManiaDotNet/ManiaPlanet/blob/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/ManiaDotNet/ManiaPlanet</projectUrl>
+        <iconUrl>http://maniadotnet.github.io/DedicatedServer/favicon.ico</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Portable Class Library for accessing the ManiaPlanet WebServices and other Information.
+
+Check Project Page for how to use.</description>
+        <summary>Portable Class Library for accessing the ManiaPlanet WebServices and other Information.</summary>
+        <releaseNotes>First pre-release.</releaseNotes>
+        <language>en</language>
+        <tags>manianet, maniaplanet, webservices, ws, web services, webservice, service, nations, pcl, portable</tags>
+        <dependencies>
+            <dependency id="Newtonsoft.Json" version="6.0.4" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.dll" target="lib\portable-net45+win+wpa81\ManiaNet.ManiaPlanet.dll" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.pdb" target="lib\portable-net45+win+wpa81\ManiaNet.ManiaPlanet.pdb" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.xml" target="lib\portable-net45+win+wpa81\ManiaNet.ManiaPlanet.xml" />
+        <file src="src\Properties\Annotations.cs" target="src\Properties\Annotations.cs" />
+        <file src="src\Properties\AssemblyInfo.cs" target="src\Properties\AssemblyInfo.cs" />
+        <file src="src\WebServices\RankingsClient\PlayerRankings.cs" target="src\WebServices\RankingsClient\PlayerRankings.cs" />
+        <file src="src\WebServices\RankingsClient\RankingsClient.cs" target="src\WebServices\RankingsClient\RankingsClient.cs" />
+        <file src="src\WebServices\DateInfo.cs" target="src\WebServices\DateInfo.cs" />
+        <file src="src\WebServices\ManiaFlashClient.cs" target="src\WebServices\ManiaFlashClient.cs" />
+        <file src="src\WebServices\ManialinksClient.cs" target="src\WebServices\ManialinksClient.cs" />
+        <file src="src\WebServices\PlayerInfo.cs" target="src\WebServices\PlayerInfo.cs" />
+        <file src="src\WebServices\PlayersClient.cs" target="src\WebServices\PlayersClient.cs" />
+        <file src="src\WebServices\ServersClient.cs" target="src\WebServices\ServersClient.cs" />
+        <file src="src\WebServices\TeamsClient.cs" target="src\WebServices\TeamsClient.cs" />
+        <file src="src\WebServices\TitleInfo.cs" target="src\WebServices\TitleInfo.cs" />
+        <file src="src\WebServices\TitlesClient.cs" target="src\WebServices\TitlesClient.cs" />
+        <file src="src\WebServices\TrustCirclesClient.cs" target="src\WebServices\TrustCirclesClient.cs" />
+        <file src="src\WebServices\WSClient.cs" target="src\WebServices\WSClient.cs" />
+        <file src="src\WebServices\ZoneInfo.cs" target="src\WebServices\ZoneInfo.cs" />
+        <file src="src\WebServices\ZonesClient.cs" target="src\WebServices\ZonesClient.cs" />
+        <file src="src\XmlEntities\Nation.cs" target="src\XmlEntities\Nation.cs" />
+        <file src="src\XmlEntities\Skin.cs" target="src\XmlEntities\Skin.cs" />
+        <file src="src\Nations.cs" target="src\Nations.cs" />
+    </files>
+</package>

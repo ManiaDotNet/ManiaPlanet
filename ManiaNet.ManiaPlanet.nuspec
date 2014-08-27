@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>ManiaNet.ManiaPlanet</id>
-        <version>0.1</version>
+        <version>0.3</version>
         <title>ManiaNet ManiaPlanet</title>
         <authors>Banane9</authors>
         <owners>Banane9</owners>
@@ -16,13 +16,13 @@ Check Project Page for how to use.</description>
         <summary>Portable Class Library for accessing the ManiaPlanet WebServices and other Information.</summary>
         <releaseNotes>First pre-release.</releaseNotes>
         <language>en</language>
-        <tags>manianet, maniaplanet, webservices, ws, web services, webservice, web service, nations, pcl, portable</tags>
+        <tags>manianet, maniaplanet, webservices, ws, web services, webservice, service, nations, pcl, portable</tags>
         <dependencies>
             <dependency id="Newtonsoft.Json" version="6.0.4" />
         </dependencies>
     </metadata>
     <files>
-        <file src="ManiaNet.ManiaPlanet\bin\Release\ManiaNet.ManiaPlanet.dll" target="lib\portable-net45+wp8+win8\ManiaNet.ManiaPlanet.dll" />
-        <file src="ManiaNet.ManiaPlanet\bin\Release\ManiaNet.ManiaPlanet.xml" target="lib\portable-net45+wp8+win8\ManiaNet.ManiaPlanet.xml" />
+        <file src="ManiaNet.ManiaPlanet\bin\Release\ManiaNet.ManiaPlanet.dll" target="lib\portable-net45+win+wpa81\ManiaNet.ManiaPlanet.dll" />
+        <file src="ManiaNet.ManiaPlanet\bin\Release\ManiaNet.ManiaPlanet.xml" target="lib\portable-net45+win+wpa81\ManiaNet.ManiaPlanet.xml" />
     </files>
 </package>
