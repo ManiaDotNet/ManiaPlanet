@@ -12,11 +12,11 @@ namespace ManiaNet.ManiaPlanet
     /// </summary>
     public static class Nations
     {
-        private static Dictionary<string, Nation> nations = new Dictionary<string, Nation>();
+        private static readonly Dictionary<string, Nation> nations = new Dictionary<string, Nation>();
 
         static Nations()
         {
-            XElement nationsList = XDocument.Load(Assembly.GetExecutingAssembly().GetManifestResourceStream("ManiaNet.ManiaPlanet.NationsList.xml")).Root;
+            XElement nationsList = XDocument.Load(Assembly.Load(new AssemblyName("ManiaNet.ManiaPlanet")).GetManifestResourceStream("ManiaNet.ManiaPlanet.NationsList.xml")).Root;
 
             foreach (var nationElement in nationsList.Elements())
             {
