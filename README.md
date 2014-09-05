@@ -18,7 +18,7 @@ First, you'll need a WebServices account. Just go to your [Player Page](https://
 Then use the the login credentials to create a Client for the branch you want, or create a CombiClient to get all of them together.
 
 ``` CSharp
-using ManiaNet.ManiaPlanet
+using ManiaNet.ManiaPlanet;
 
 var combiClient = new CombiClient(login, password);
 
