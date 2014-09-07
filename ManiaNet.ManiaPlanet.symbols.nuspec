@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>ManiaNet.ManiaPlanet</id>
-        <version>0.3</version>
+        <version>0.4.1</version>
         <title>ManiaNet ManiaPlanet</title>
         <authors>Banane9</authors>
         <owners>Banane9</owners>
@@ -29,6 +29,7 @@ Check Project Page for how to use.</description>
         <file src="ManiaNet.ManiaPlanet\Properties\AssemblyInfo.cs" target="src\Properties\AssemblyInfo.cs" />
         <file src="ManiaNet.ManiaPlanet\WebServices\RankingsClient\PlayerRankings.cs" target="src\WebServices\RankingsClient\PlayerRankings.cs" />
         <file src="ManiaNet.ManiaPlanet\WebServices\RankingsClient\RankingsClient.cs" target="src\WebServices\RankingsClient\RankingsClient.cs" />
+        <file src="ManiaNet.ManiaPlanet\WebServices\CombiClient.cs" target="src\WebServices\CombiClient.cs" />
         <file src="ManiaNet.ManiaPlanet\WebServices\DateInfo.cs" target="src\WebServices\DateInfo.cs" />
         <file src="ManiaNet.ManiaPlanet\WebServices\ManiaFlashClient.cs" target="src\WebServices\ManiaFlashClient.cs" />
         <file src="ManiaNet.ManiaPlanet\WebServices\ManialinksClient.cs" target="src\WebServices\ManialinksClient.cs" />

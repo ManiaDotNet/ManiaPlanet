@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>ManiaNet.ManiaPlanet</id>
-        <version>0.3</version>
+        <version>0.4.1</version>
         <title>ManiaNet ManiaPlanet</title>
         <authors>Banane9</authors>
         <owners>Banane9</owners>
