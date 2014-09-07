@@ -8,6 +8,8 @@ It supports the following platforms:
 * .NET >4.5
 * Windows 8 Store Apps
 * Windows Phone 8.1 Apps
+* Xamarin.Android
+* Xamarin.iOS
  
 A great ManiaPlanet Forum post documenting the return types of the API can be found [here](http://forum.maniaplanet.com/viewtopic.php?f=282&t=5058). The return types are not hugely important to the usage of this library, as that is handled already, but it also gives a nice overview about all the methods that are available.
 

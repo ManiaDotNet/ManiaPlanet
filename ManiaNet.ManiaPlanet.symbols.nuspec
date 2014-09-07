@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>ManiaNet.ManiaPlanet</id>
-        <version>0.4.1</version>
+        <version>0.5.0</version>
         <title>ManiaNet ManiaPlanet</title>
         <authors>Banane9</authors>
         <owners>Banane9</owners>
@@ -14,15 +14,29 @@
 
 Check Project Page for how to use.</description>
         <summary>Portable Class Library for accessing the ManiaPlanet WebServices and other Information.</summary>
-        <releaseNotes>First pre-release.</releaseNotes>
+        <releaseNotes>Make PCL support Xamarin.iOS and Xamarin.Android.</releaseNotes>
         <language>en</language>
         <tags>manianet, maniaplanet, webservices, ws, web services, webservice, service, nations, pcl, portable</tags>
         <dependencies>
             <dependency id="Newtonsoft.Json" version="6.0.4" />
+            <dependency id="Microsoft.Net.Http" version="2.2.28" />
         </dependencies>
     </metadata>
     <files>
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.dll" target="lib\MonoAndroid\ManiaNet.ManiaPlanet.dll" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.dll.config" target="lib\MonoAndroid\ManiaNet.ManiaPlanet.dll.config" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.pdb" target="lib\MonoAndroid\ManiaNet.ManiaPlanet.pdb" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.xml" target="lib\MonoAndroid\ManiaNet.ManiaPlanet.xml" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.dll" target="lib\MonoMac\ManiaNet.ManiaPlanet.dll" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.dll.config" target="lib\MonoMac\ManiaNet.ManiaPlanet.dll.config" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.pdb" target="lib\MonoMac\ManiaNet.ManiaPlanet.pdb" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.xml" target="lib\MonoMac\ManiaNet.ManiaPlanet.xml" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.dll" target="lib\MonoTouch\ManiaNet.ManiaPlanet.dll" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.dll.config" target="lib\MonoTouch\ManiaNet.ManiaPlanet.dll.config" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.pdb" target="lib\MonoTouch\ManiaNet.ManiaPlanet.pdb" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.xml" target="lib\MonoTouch\ManiaNet.ManiaPlanet.xml" />
         <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.dll" target="lib\portable-net45+win+wpa81\ManiaNet.ManiaPlanet.dll" />
+        <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.dll.config" target="lib\portable-net45+win+wpa81\ManiaNet.ManiaPlanet.dll.config" />
         <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.pdb" target="lib\portable-net45+win+wpa81\ManiaNet.ManiaPlanet.pdb" />
         <file src="ManiaNet.ManiaPlanet\bin\Debug\ManiaNet.ManiaPlanet.xml" target="lib\portable-net45+win+wpa81\ManiaNet.ManiaPlanet.xml" />
         <file src="ManiaNet.ManiaPlanet\Properties\Annotations.cs" target="src\Properties\Annotations.cs" />
